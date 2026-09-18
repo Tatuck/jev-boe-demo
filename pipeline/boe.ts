@@ -14,7 +14,7 @@ export const MAX_PARAGRAPHS = 200;
 /** A paragraph this long after an "ÍNDICE" heading is prose again, not an index entry. */
 const INDEX_ENTRY_MAX_CHARS = 200;
 
-const USER_AGENT = "boe-ciudadano-demo/0.1 (+https://github.com)";
+const USER_AGENT = "boe-ciudadano-demo/0.1 (+https://github.com/Tatuck/jev-boe-demo/)";
 
 /** BOE JSON returns single objects where a list has one element; normalize. */
 function asArray<T>(v: T | T[] | undefined | null): T[] {
