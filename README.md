@@ -1,5 +1,7 @@
 # BOE para ciudadanos
 
+> Este código está escrito mediante el uso de IA (Claude Code con el modelo Opus 5)
+
 Demo de [Jev](https://docs.typesafe.ai/introduction), el modelo *System One* de TypeSafe, aplicada al Boletín Oficial del Estado.
 
 Cada mañana un pipeline descarga el BOE del día (secciones I, II-B y III), lee cada disposición y le hace a Jev, en una sola llamada por texto, un conjunto de preguntas cerradas:
