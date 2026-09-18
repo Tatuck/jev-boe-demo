@@ -1,0 +1,99 @@
+---
+import { longDate, shortDate } from "../lib/format";
+import { neighbours } from "../lib/data";
+
+interface Props {
+  date: string;
+  boeNumero: string;
+}
+const { date, boeNumero } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const { prev, next } = neighbours(date);
+---
+
+<header class="header">
+  <div class="container top">
+    <a class="brand serif" href={base}>BOE para ciudadanos</a>
+    <nav class="links" aria-label="Secundaria">
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="https://www.boe.es" rel="noopener">boe.es</a>
+    </nav>
+  </div>
+  <div class="container masthead">
+    <nav class="daynav" aria-label="Días">
+      {prev ? <a href={`${base}dia/${prev}/`} rel="prev">← {shortDate(prev)}</a> : <span class="disabled">← anterior</span>}
+      <span class="sep" aria-hidden="true"></span>
+      {next ? <a href={`${base}dia/${next}/`} rel="next">{shortDate(next)} →</a> : <span class="disabled">siguiente →</span>}
+    </nav>
+    <h1 class="serif">{longDate(date)}</h1>
+    <p class="muted">Boletín Oficial del Estado núm. {boeNumero}. Secciones I, II-B y III, leídas y clasificadas por Jev.</p>
+  </div>
+</header>
+
+<style>
+  .header {
+    border-bottom: 1px solid var(--line);
+  }
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    height: 56px;
+  }
+  .brand {
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: -0.01em;
+  }
+  .links {
+    display: flex;
+    gap: 20px;
+    font-size: 0.9rem;
+  }
+  .links a {
+    color: var(--fg-muted);
+    text-decoration: none;
+  }
+  .links a:hover {
+    color: var(--accent);
+  }
+  .masthead {
+    padding-block: 28px 32px;
+  }
+  .daynav {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--fg-muted);
+    margin-bottom: 14px;
+  }
+  .daynav a {
+    text-decoration: none;
+  }
+  .daynav .sep {
+    width: 1px;
+    height: 14px;
+    background: var(--line-strong);
+  }
+  .daynav .disabled {
+    color: var(--fg-faint);
+  }
+  h1 {
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    font-weight: 500;
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    margin: 0 0 10px;
+  }
+  h1::first-letter {
+    text-transform: uppercase;
+  }
+  .masthead p {
+    margin: 0;
+    max-width: var(--measure);
+  }
+</style>

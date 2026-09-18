@@ -1,0 +1,74 @@
+---
+import { CATEGORY_THRESHOLD, RELEVANT_SCORE } from "@pipeline/analyze.ts";
+import { CATEGORIES } from "../lib/format";
+---
+
+<footer id="como-funciona" class="container">
+  <h2 class="serif">Cómo funciona</h2>
+  <div class="cols">
+    <div>
+      <p>
+        Cada mañana un proceso descarga el sumario del BOE, lee el texto de cada disposición de las secciones I, II-B y III y se lo pasa
+        a <a href="https://docs.typesafe.ai/introduction" rel="noopener">Jev</a>, el modelo de TypeSafe. Jev no escribe: responde preguntas cerradas
+        con probabilidades calibradas. Todo lo que se ve aquí sale de una sola llamada por disposición con estas preguntas:
+      </p>
+      <ul>
+        <li><strong>Relevancia</strong> (Score 0 a 3): ¿en qué medida cambia algo para las personas corrientes? Se muestra la esperanza matemática; "relevante" es ≥ {RELEVANT_SCORE}.</li>
+        <li><strong>Categorías</strong> ({CATEGORIES.length} Noul en paralelo): ¿contiene al menos una medida concreta sobre vivienda, empleo, impuestos...? Se asigna cuando la probabilidad supera {CATEGORY_THRESHOLD}.</li>
+        <li><strong>Extracto</strong> (Choice): de todos los párrafos del texto, ¿cuál explica mejor qué cambia y para quién? El párrafo es literal del BOE; Jev solo lo elige.</li>
+        <li><strong>Oposiciones</strong> (2 Noul extra): ¿es convocatoria nueva? ¿de acceso libre?</li>
+      </ul>
+    </div>
+    <div>
+      <p>
+        Los textos largos se recortan a los primeros 20.000 caracteres (normalmente el preámbulo), tras saltar el índice. Los tiempos que se muestran son
+        la latencia real de cada llamada a la API, medida desde el proceso. El resultado se guarda como JSON en el repositorio y la web se regenera
+        estática.
+      </p>
+      <p>
+        Es una demo. Las clasificaciones son del modelo, sin revisión humana; ante la duda, lee el original en boe.es. El código está
+        en <a href="https://github.com" rel="noopener">GitHub</a>.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  footer {
+    margin-top: 48px;
+    padding-block: 36px 56px;
+    border-top: 1px solid var(--line);
+    font-size: 0.92rem;
+    color: var(--fg-muted);
+  }
+  h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 0 0 18px;
+    color: var(--fg);
+  }
+  .cols {
+    display: grid;
+    gap: 24px 48px;
+  }
+  @media (min-width: 860px) {
+    .cols {
+      grid-template-columns: 3fr 2fr;
+    }
+  }
+  p {
+    margin: 0 0 14px;
+    max-width: var(--measure);
+  }
+  ul {
+    padding-left: 18px;
+    margin: 0;
+  }
+  li {
+    margin-bottom: 8px;
+  }
+  strong {
+    color: var(--fg);
+    font-weight: 500;
+  }
+</style>

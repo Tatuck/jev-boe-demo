@@ -1,0 +1,63 @@
+---
+import type { DayStats } from "@pipeline/types.ts";
+import { compact, int, seconds, usd } from "../lib/format";
+
+interface Props {
+  stats: DayStats;
+  model: string;
+}
+const { stats, model } = Astro.props;
+---
+
+<section class="stats" aria-label="Rendimiento del análisis">
+  <div class="container grid">
+    <div>
+      <span class="num mono">{int(stats.items)}</span>
+      <span class="lbl">disposiciones analizadas</span>
+    </div>
+    <div>
+      <span class="num mono">{seconds(stats.wall_ms)}</span>
+      <span class="lbl">todo el día, descarga incluida ({stats.concurrency} en paralelo)</span>
+    </div>
+    <div>
+      <span class="num mono">{int(stats.jev_ms_avg)} ms</span>
+      <span class="lbl">por disposición en Jev, de media (mín. {int(stats.jev_ms_min)}, máx. {int(stats.jev_ms_max)})</span>
+    </div>
+    <div>
+      <span class="num mono">{compact(stats.input_tokens)} tokens</span>
+      <span class="lbl">{usd(stats.input_tokens)} con {model}</span>
+    </div>
+  </div>
+</section>
+
+<style>
+  .stats {
+    background: var(--bg-raised);
+    border-bottom: 1px solid var(--line);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px 24px;
+    padding-block: 18px;
+  }
+  @media (min-width: 860px) {
+    .grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+  .num {
+    display: block;
+    font-size: 1.35rem;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+  .lbl {
+    display: block;
+    margin-top: 4px;
+    font-size: 0.8rem;
+    color: var(--fg-muted);
+    line-height: 1.35;
+  }
+</style>

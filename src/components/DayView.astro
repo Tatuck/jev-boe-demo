@@ -1,0 +1,133 @@
+---
+import type { DayFile } from "@pipeline/types.ts";
+import Header from "./Header.astro";
+import StatsLine from "./StatsLine.astro";
+import Filters from "./Filters.astro";
+import ItemCard from "./ItemCard.astro";
+import Footer from "./Footer.astro";
+import { itemCategories, RELEVANT_SCORE } from "../lib/format";
+
+interface Props {
+  day: DayFile;
+}
+const { day } = Astro.props;
+
+const counts: Record<string, number> = {};
+for (const item of day.items) for (const c of itemCategories(item)) counts[c] = (counts[c] ?? 0) + 1;
+---
+
+<Header date={day.date} boeNumero={day.boe_numero} />
+<StatsLine stats={day.stats} model={day.model} />
+<main>
+  <Filters counts={counts} relevantes={day.stats.relevantes} total={day.stats.items} />
+  <section class="container list" id="list" data-relevant-score={RELEVANT_SCORE}>
+    {day.items.map((item) => <ItemCard item={item} />)}
+    <p class="empty" id="empty" hidden>Ninguna disposición de este día cumple el filtro.</p>
+    <p class="hidden-note" id="hidden-note" hidden>
+      <span id="hidden-count"></span> disposiciones ocultas por el filtro.{" "}
+      <button type="button" id="show-all">Mostrar todas</button>
+    </p>
+  </section>
+</main>
+<Footer />
+
+<style>
+  .list {
+    padding-top: 10px;
+  }
+  .empty,
+  .hidden-note {
+    padding-block: 28px;
+    border-top: 1px solid var(--line);
+    color: var(--fg-muted);
+    font-size: 0.92rem;
+  }
+  .hidden-note button {
+    font: inherit;
+    color: var(--accent);
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+  }
+</style>
+
+<script>
+  // Client-side filtering over the static list. State lives in the URL so views are shareable:
+  //   ?todos=1            show every item, not only the relevant ones
+  //   ?cat=vivienda,sanidad   any of these categories
+  const list = document.getElementById("list")!;
+  const items = [...list.querySelectorAll<HTMLElement>("article.item")];
+  const toggle = document.getElementById("only-relevant") as HTMLInputElement;
+  const chips = [...document.querySelectorAll<HTMLButtonElement>(".chip[data-cat]")];
+  const clear = document.getElementById("clear-cats") as HTMLButtonElement;
+  const empty = document.getElementById("empty")!;
+  const hiddenNote = document.getElementById("hidden-note")!;
+  const hiddenCount = document.getElementById("hidden-count")!;
+  const showAll = document.getElementById("show-all") as HTMLButtonElement;
+  const relevantScore = Number(list.dataset.relevantScore);
+
+  const selected = new Set<string>();
+
+  function readUrl() {
+    const q = new URLSearchParams(location.search);
+    toggle.checked = q.get("todos") !== "1";
+    selected.clear();
+    for (const c of (q.get("cat") ?? "").split(",").filter(Boolean)) selected.add(c);
+  }
+
+  function writeUrl() {
+    const q = new URLSearchParams();
+    if (!toggle.checked) q.set("todos", "1");
+    if (selected.size) q.set("cat", [...selected].join(","));
+    const qs = q.toString();
+    history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
+  }
+
+  function apply() {
+    let shown = 0;
+    for (const el of items) {
+      const cats = (el.dataset.cats ?? "").split(" ");
+      const score = Number(el.dataset.score);
+      const okRelevance = !toggle.checked || score >= relevantScore;
+      const okCat = selected.size === 0 || cats.some((c) => selected.has(c));
+      const show = okRelevance && okCat;
+      el.hidden = !show;
+      if (show) shown++;
+    }
+    for (const chip of chips) chip.setAttribute("aria-pressed", String(selected.has(chip.dataset.cat!)));
+    clear.hidden = selected.size === 0;
+    empty.hidden = shown > 0;
+    const hidden = items.length - shown;
+    hiddenNote.hidden = !(toggle.checked && hidden > 0 && shown > 0);
+    hiddenCount.textContent = String(hidden);
+    writeUrl();
+  }
+
+  toggle.addEventListener("change", apply);
+  for (const chip of chips) {
+    chip.addEventListener("click", () => {
+      const id = chip.dataset.cat!;
+      if (selected.has(id)) selected.delete(id);
+      else selected.add(id);
+      apply();
+    });
+  }
+  clear.addEventListener("click", () => {
+    selected.clear();
+    apply();
+  });
+  showAll.addEventListener("click", () => {
+    toggle.checked = false;
+    apply();
+  });
+  window.addEventListener("popstate", () => {
+    readUrl();
+    apply();
+  });
+
+  readUrl();
+  apply();
+</script>

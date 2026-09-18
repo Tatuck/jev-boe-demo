@@ -1,0 +1,102 @@
+name: BOE diario
+
+on:
+  schedule:
+    # 07:15 UTC = 09:15 Madrid (CEST) / 08:15 (CET). El BOE se publica sobre las 08:00.
+    - cron: "15 7 * * 1-6"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Día a analizar (YYYY-MM-DD). Vacío = hoy."
+        required: false
+      force:
+        description: "Reanalizar aunque el día ya exista"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: boe-diario
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      deploy: ${{ steps.decide.outputs.deploy }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Analizar el BOE con Jev
+        if: github.event_name != 'push'
+        env:
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
+        run: |
+          ARGS="--today"
+          if [ -n "${{ inputs.date }}" ]; then ARGS="--date ${{ inputs.date }}"; fi
+          if [ "${{ inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
+          pnpm pipeline $ARGS
+
+      - name: Guardar datos en el repositorio
+        id: commit
+        if: github.event_name != 'push'
+        run: |
+          git add data
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Sin cambios en data/"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "data: BOE $(date -u +%Y-%m-%d)"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: ¿Desplegar?
+        id: decide
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ] || [ "${{ steps.commit.outputs.changed }}" = "true" ]; then
+            echo "deploy=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "deploy=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Construir la web
+        if: steps.decide.outputs.deploy == 'true'
+        env:
+          SITE_URL: https://${{ github.repository_owner }}.github.io
+        run: |
+          export BASE_PATH="/${GITHUB_REPOSITORY#*/}/"
+          pnpm build
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.decide.outputs.deploy == 'true'
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.deploy == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

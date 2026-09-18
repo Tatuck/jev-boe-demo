@@ -1,0 +1,13 @@
+---
+import Base from "../layouts/Base.astro";
+import DayView from "../components/DayView.astro";
+import { getDay, latestDate } from "../lib/data";
+import { longDate } from "../lib/format";
+
+const date = latestDate();
+const day = getDay(date)!;
+---
+
+<Base title="BOE para ciudadanos" description={`Qué cambia para ti en el BOE del ${longDate(date)}, clasificado por Jev (TypeSafe).`}>
+  <DayView day={day} />
+</Base>

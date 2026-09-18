@@ -1,0 +1,167 @@
+---
+import type { AnalyzedItem } from "@pipeline/types.ts";
+import { categoryLabel, int, itemCategories, LOW_CONFIDENCE, RELEVANCE_LABELS, relevanceLevel, score1, SECTION_SHORT } from "../lib/format";
+
+interface Props {
+  item: AnalyzedItem;
+}
+const { item } = Astro.props;
+const a = item.analysis;
+const cats = itemCategories(item);
+const level = a ? relevanceLevel(a.relevancia.score) : 0;
+const uncertain = a ? a.relevancia.confidence < LOW_CONFIDENCE : false;
+const op = a?.oposicion;
+const rango = item.rango ?? item.seccionNombre;
+---
+
+<article class="item" data-cats={cats.join(" ")} data-score={a?.relevancia.score ?? 0} data-level={level}>
+  <div class="meta">
+    <span>{rango}</span>
+    <span class="dept">{item.departamento}</span>
+  </div>
+  <h2 class="serif"><a href={item.urlHtml} rel="noopener">{item.titulo}</a></h2>
+
+  {a ? (
+    <>
+      <div class="tags">
+        <span class={`level level-${level}`} title={`Puntuación ${score1(a.relevancia.score)} sobre 3, confianza ${score1(a.relevancia.confidence * 100)} %`}>
+          {RELEVANCE_LABELS[level]}
+          <span class="mono">{score1(a.relevancia.score)}</span>
+        </span>
+        {uncertain && <span class="uncertain">Jev no está seguro</span>}
+        {op && op.nueva >= 0.6 && <span class="op">Convocatoria nueva</span>}
+        {op && op.nueva >= 0.6 && op.libre >= 0.6 && <span class="op">Acceso libre</span>}
+        {cats.map((c) => (
+          <span class="cat">{categoryLabel(c)}</span>
+        ))}
+      </div>
+      {a.extracto && (
+        <blockquote>
+          <p>{a.extracto.texto}</p>
+        </blockquote>
+      )}
+    </>
+  ) : (
+    <p class="error">No se pudo analizar: {item.error}</p>
+  )}
+
+  <div class="foot">
+    <span class="mono">{SECTION_SHORT[item.seccion] ?? item.seccionNombre}</span>
+    <span class="mono">Jev {int(item.timings.jev_ms)} ms</span>
+    <a class="boe" href={item.urlHtml} rel="noopener">Ver en el BOE</a>
+  </div>
+</article>
+
+<style>
+  .item {
+    padding-block: 26px;
+    border-top: 1px solid var(--line);
+  }
+  .item[hidden] {
+    display: none;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    font-size: 0.8rem;
+    color: var(--fg-muted);
+    margin-bottom: 8px;
+  }
+  .dept {
+    color: var(--fg-faint);
+  }
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    margin: 0 0 12px;
+    max-width: var(--measure);
+    text-wrap: pretty;
+  }
+  h2 a {
+    text-decoration: none;
+  }
+  h2 a:hover {
+    text-decoration: underline;
+    color: var(--fg);
+  }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.78rem;
+    margin-bottom: 14px;
+  }
+  .tags > span {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 6px;
+    padding: 3px 9px;
+    border-radius: 999px;
+    line-height: 1.3;
+  }
+  .level {
+    border: 1px solid var(--line-strong);
+    color: var(--fg-muted);
+  }
+  .level .mono {
+    font-size: 0.72rem;
+    opacity: 0.8;
+  }
+  .level-2 {
+    border-color: var(--fg);
+    color: var(--fg);
+  }
+  .level-3 {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--accent-fg);
+  }
+  .uncertain {
+    background: var(--warn-soft);
+    color: var(--warn);
+  }
+  .op {
+    background: var(--accent-soft);
+    color: var(--fg);
+  }
+  .cat {
+    background: var(--bg-raised);
+    color: var(--fg-muted);
+  }
+  blockquote {
+    margin: 0 0 14px;
+    padding-left: 14px;
+    border-left: 2px solid var(--line-strong);
+    max-width: var(--measure);
+  }
+  blockquote p {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    line-height: 1.5;
+    color: var(--fg-muted);
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .foot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 18px;
+    font-size: 0.78rem;
+    color: var(--fg-faint);
+  }
+  .boe {
+    margin-left: auto;
+    color: var(--fg-muted);
+  }
+  .error {
+    color: var(--warn);
+    font-size: 0.9rem;
+  }
+</style>

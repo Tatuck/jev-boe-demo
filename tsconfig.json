@@ -1,0 +1,10 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "baseUrl": ".",
+    "paths": { "@pipeline/*": ["pipeline/*"], "@data/*": ["data/*"] }
+  },
+  "include": [".astro/types.d.ts", "src/**/*", "pipeline/**/*"],
+  "exclude": ["dist"]
+}

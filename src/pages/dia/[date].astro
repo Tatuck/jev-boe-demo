@@ -1,0 +1,17 @@
+---
+import Base from "../../layouts/Base.astro";
+import DayView from "../../components/DayView.astro";
+import { dates, getDay } from "../../lib/data";
+import { longDate } from "../../lib/format";
+
+export function getStaticPaths() {
+  return dates.map((date) => ({ params: { date } }));
+}
+
+const { date } = Astro.params;
+const day = getDay(date)!;
+---
+
+<Base title={`BOE del ${longDate(date)} para ciudadanos`} description={`Qué cambia para ti en el BOE del ${longDate(date)}, clasificado por Jev (TypeSafe).`}>
+  <DayView day={day} />
+</Base>

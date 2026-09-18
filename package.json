@@ -1,0 +1,33 @@
+{
+  "name": "boe-ciudadano",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Demo de Jev (TypeSafe) sobre el BOE: categoriza y puntúa cada disposición diaria para el ciudadano.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "pipeline": "tsx pipeline/run.ts",
+    "calibrate": "tsx pipeline/calibrate.ts",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "tsc --noEmit -p tsconfig.pipeline.json"
+  },
+  "dependencies": {
+    "@fontsource-variable/ibm-plex-sans": "^5.3.0",
+    "@fontsource-variable/newsreader": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@typesafe-ai/sdk": "0.6.0",
+    "fast-xml-parser": "^5.11.1",
+    "p-limit": "^7.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.5",
+    "astro": "^7.3.3",
+    "tsx": "^4.23.13",
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "pnpm@11.1.3"
+}
