@@ -18,6 +18,7 @@ const { prev, next } = neighbours(date);
     <a class="brand serif" href={base}>BOE para ciudadanos</a>
     <nav class="links" aria-label="Secundaria">
       <a class="how" href="#como-funciona">Cómo funciona</a>
+      <a href="https://tatuck.com/blog/usando-jev-para-leer-el-boe/" rel="noopener">Blog</a>
       <a href="https://www.boe.es" rel="noopener">boe.es</a>
       <ThemeToggle />
     </nav>
@@ -61,6 +62,7 @@ const { prev, next } = neighbours(date);
   .links a {
     color: var(--fg-muted);
     text-decoration: none;
+    white-space: nowrap;
   }
   .links a:hover {
     color: var(--accent);
@@ -116,9 +118,9 @@ const { prev, next } = neighbours(date);
       gap: 12px;
     }
   }
-  /* Phones: the jump link does not fit next to the brand and the theme button; the
-     footer it points to is one scroll away anyway. */
-  @media (max-width: 399px) {
+  /* Phones: the jump link does not fit next to the brand, the other links and the theme
+     button; the footer it points to is one scroll away anyway. */
+  @media (max-width: 519px) {
     .links .how {
       display: none;
     }
