@@ -1,0 +1,110 @@
+<!doctype html>
+<!-- Terminal look-alike used by demo/record-pipeline.ts: the recorder streams the real
+     stdout of `pnpm pipeline` into #out, so timings in the gif are the real ones. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>boe-ciudadano — pnpm pipeline</title>
+  <style>
+    @font-face {
+      font-family: "IBM Plex Mono";
+      font-weight: 400;
+      src: url("../node_modules/@fontsource/ibm-plex-mono/files/ibm-plex-mono-latin-400-normal.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: "IBM Plex Mono";
+      font-weight: 600;
+      src: url("../node_modules/@fontsource/ibm-plex-mono/files/ibm-plex-mono-latin-600-normal.woff2") format("woff2");
+    }
+    :root {
+      --bg: #101319;
+      --bar: #1a1f28;
+      --fg: #d6dae2;
+      --dim: #7f8794;
+      --accent: #f2b544;
+      --green: #6cc48a;
+      --blue: #7cb3f0;
+    }
+    html, body { margin: 0; height: 100%; background: var(--bg); overflow: hidden; }
+    body { display: flex; flex-direction: column; font: 14px/1.5 "IBM Plex Mono", "Noto Sans Mono", monospace; color: var(--fg); }
+    .bar { flex: none; display: flex; align-items: center; height: 36px; padding: 0 14px; background: var(--bar); color: var(--dim); font-size: 12px; user-select: none; }
+    .bar .dots { display: flex; gap: 7px; margin-right: 14px; }
+    .bar .dots i { width: 11px; height: 11px; border-radius: 50%; background: #3a4150; }
+    .bar .dots i:nth-child(1) { background: #ff5f57; }
+    .bar .dots i:nth-child(2) { background: #febc2e; }
+    .bar .dots i:nth-child(3) { background: #28c840; }
+    #out { flex: 1; margin: 0; padding: 14px 18px; overflow: hidden; white-space: pre; }
+    .line { display: block; min-height: 1.5em; }
+    .prompt { color: var(--green); }
+    .cmd { color: var(--fg); }
+    .dim { color: var(--dim); }
+    .hi { color: var(--accent); }
+    .score { color: var(--blue); }
+    .bold { font-weight: 600; }
+    .cursor { display: inline-block; width: 8px; height: 1.15em; vertical-align: -0.2em; background: var(--fg); animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+</head>
+<body>
+  <div class="bar"><span class="dots"><i></i><i></i><i></i></span>boe-ciudadano — pnpm pipeline</div>
+  <pre id="out"></pre>
+  <script>
+    const out = document.getElementById("out");
+    let promptEl = null;
+
+    function esc(s) {
+      return s.replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" })[c]);
+    }
+
+    /** Colour rules for the pipeline's plain-text output. */
+    function render(s) {
+      // verbose progress line:  "  1.9s  12/77  BOE-A-2026-19330  Ley   2.08  cats   676 ms  17.9k tok"
+      const m = s.match(/^(\s*\d+\.\ds\s+\d+\/\d+\s+)(BOE-\S+\s+.{18}\s+)(\d\.\d\d)(\s+.*?)(\s+\d+ ms\s+\S+ tok)$/);
+      if (m) {
+        const score = Number(m[3]);
+        const cls = score >= 2 ? "hi" : "";
+        return `<span class="dim">${esc(m[1])}</span><span class="${cls}">${esc(m[2])}</span><span class="score ${cls ? "bold" : ""}">${esc(m[3])}</span><span class="${cls}">${esc(m[4])}</span><span class="dim">${esc(m[5])}</span>`;
+      }
+      if (/^\d{4}-\d{2}-\d{2} · (analyzed|wrote)/.test(s)) {
+        return `<span class="bold">${esc(s).replace(/(wall \S+|jev avg \d+ ms|\d+ tokens)/g, '<span class="hi">$1</span>')}</span>`;
+      }
+      if (/^\d{4}-\d{2}-\d{2} · BOE/.test(s) || /^done ·/.test(s)) return `<span class="bold">${esc(s)}</span>`;
+      return esc(s);
+    }
+
+    function keepBottom() {
+      // On overflow drop the top half instead of one line at a time: lines arrive ~5/s, and a
+      // per-line scroll would both jitter for the reader and force a full frame in the gif each time.
+      if (out.scrollHeight <= out.clientHeight) return;
+      const keep = Math.floor(out.clientHeight / (2 * parseFloat(getComputedStyle(out).lineHeight)));
+      while (out.children.length > keep && out.firstChild) out.removeChild(out.firstChild);
+    }
+
+    window.term = {
+      /** Starts a prompt line; `type` appends to it. */
+      prompt() {
+        promptEl = document.createElement("span");
+        promptEl.className = "line";
+        promptEl.innerHTML = `<span class="prompt">$</span> <span class="cmd"></span><span class="cursor"></span>`;
+        out.appendChild(promptEl);
+        keepBottom();
+      },
+      type(ch) {
+        promptEl.querySelector(".cmd").textContent += ch;
+      },
+      /** Freezes the prompt (removes the cursor) when the command starts running. */
+      run() {
+        promptEl.querySelector(".cursor").remove();
+        promptEl = null;
+      },
+      line(s) {
+        const el = document.createElement("span");
+        el.className = "line";
+        el.innerHTML = render(s);
+        out.appendChild(el);
+        keepBottom();
+      },
+    };
+  </script>
+</body>
+</html>
