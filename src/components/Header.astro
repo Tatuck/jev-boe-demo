@@ -1,6 +1,8 @@
 ---
 import { longDate, shortDate } from "../lib/format";
 import { neighbours } from "../lib/data";
+import ThemeToggle from "./ThemeToggle.astro";
+import Calendar from "./Calendar.astro";
 
 interface Props {
   date: string;
@@ -15,13 +17,16 @@ const { prev, next } = neighbours(date);
   <div class="container top">
     <a class="brand serif" href={base}>BOE para ciudadanos</a>
     <nav class="links" aria-label="Secundaria">
-      <a href="#como-funciona">Cómo funciona</a>
+      <a class="how" href="#como-funciona">Cómo funciona</a>
       <a href="https://www.boe.es" rel="noopener">boe.es</a>
+      <ThemeToggle />
     </nav>
   </div>
   <div class="container masthead">
     <nav class="daynav" aria-label="Días">
       {prev ? <a href={`${base}dia/${prev}/`} rel="prev">← {shortDate(prev)}</a> : <span class="disabled">← anterior</span>}
+      <span class="sep" aria-hidden="true"></span>
+      <Calendar date={date} />
       <span class="sep" aria-hidden="true"></span>
       {next ? <a href={`${base}dia/${next}/`} rel="next">{shortDate(next)} →</a> : <span class="disabled">siguiente →</span>}
     </nav>
@@ -49,6 +54,7 @@ const { prev, next } = neighbours(date);
   }
   .links {
     display: flex;
+    align-items: center;
     gap: 20px;
     font-size: 0.9rem;
   }
@@ -63,6 +69,7 @@ const { prev, next } = neighbours(date);
     padding-block: 28px 32px;
   }
   .daynav {
+    position: relative; /* anchors the calendar popover on narrow screens */
     display: flex;
     align-items: center;
     gap: 12px;
@@ -73,6 +80,10 @@ const { prev, next } = neighbours(date);
   }
   .daynav a {
     text-decoration: none;
+  }
+  .daynav a,
+  .daynav .disabled {
+    white-space: nowrap;
   }
   .daynav .sep {
     width: 1px;
@@ -95,5 +106,21 @@ const { prev, next } = neighbours(date);
   .masthead p {
     margin: 0;
     max-width: var(--measure);
+  }
+  @media (max-width: 479px) {
+    .brand {
+      font-size: 1.1rem;
+      white-space: nowrap;
+    }
+    .links {
+      gap: 12px;
+    }
+  }
+  /* Phones: the jump link does not fit next to the brand and the theme button; the
+     footer it points to is one scroll away anyway. */
+  @media (max-width: 399px) {
+    .links .how {
+      display: none;
+    }
   }
 </style>

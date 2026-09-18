@@ -1,17 +1,19 @@
-/* Tokens: one neutral scale, one accent, tuned for both schemes. */
+/* Tokens: one neutral scale, one accent, tuned for both schemes.
+   light-dark() picks the value from the effective color-scheme, so the manual
+   toggle only has to flip `color-scheme` on <html> (see Base.astro). */
 :root {
-  --bg: #fbfbfa;
-  --bg-raised: #f2f2f0;
-  --fg: #1a1a1a;
-  --fg-muted: #5f5f5c;
-  --fg-faint: #8a8a86;
-  --line: #e2e2df;
-  --line-strong: #c9c9c5;
-  --accent: #1f4fd6;
-  --accent-fg: #ffffff;
-  --accent-soft: #e6ecfb;
-  --warn: #9a5b00;
-  --warn-soft: #fbf1e0;
+  --bg: light-dark(#fbfbfa, #131313);
+  --bg-raised: light-dark(#f2f2f0, #1c1c1c);
+  --fg: light-dark(#1a1a1a, #ececea);
+  --fg-muted: light-dark(#5f5f5c, #a3a39f);
+  --fg-faint: light-dark(#8a8a86, #767672);
+  --line: light-dark(#e2e2df, #2a2a29);
+  --line-strong: light-dark(#c9c9c5, #3d3d3b);
+  --accent: light-dark(#1f4fd6, #7aa0ff);
+  --accent-fg: light-dark(#ffffff, #0b1a44);
+  --accent-soft: light-dark(#e6ecfb, #1b2645);
+  --warn: light-dark(#9a5b00, #e2a95a);
+  --warn-soft: light-dark(#fbf1e0, #2e2415);
 
   --font-serif: "Newsreader Variable", "Newsreader", Georgia, "Times New Roman", serif;
   --font-sans: "IBM Plex Sans Variable", "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -21,24 +23,16 @@
   --measure: 72ch;
   --gutter: 16px;
 
+  /* No data-theme (JS off): follow the system. */
   color-scheme: light dark;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #131313;
-    --bg-raised: #1c1c1c;
-    --fg: #ececea;
-    --fg-muted: #a3a39f;
-    --fg-faint: #767672;
-    --line: #2a2a29;
-    --line-strong: #3d3d3b;
-    --accent: #7aa0ff;
-    --accent-fg: #0b1a44;
-    --accent-soft: #1b2645;
-    --warn: #e2a95a;
-    --warn-soft: #2e2415;
-  }
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
 }
 
 *,

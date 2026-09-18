@@ -1,0 +1,232 @@
+---
+import { dates } from "../lib/data";
+import { longDate } from "../lib/format";
+import { monthsBetween, WEEKDAYS } from "../lib/calendar";
+
+interface Props {
+  date: string;
+}
+const { date } = Astro.props;
+const base = import.meta.env.BASE_URL;
+
+// Every month is rendered at build time; JS only toggles which one is visible.
+// Days without a file (Sundays, holidays) are plain text so nothing can 404.
+const available = new Set(dates);
+const months = monthsBetween(dates);
+const current = date.slice(0, 7);
+---
+
+<details class="calendar" id="calendar">
+  <summary>
+    <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round">
+      <rect x="3.5" y="5" width="17" height="15.5" rx="1.5" />
+      <path d="M3.5 10h17M8 3v4M16 3v4" />
+    </svg>
+    <span class="text">elegir día</span>
+  </summary>
+  <div class="panel" data-current={current}>
+    <div class="monthnav">
+      <button type="button" data-dir="-1" aria-label="Mes anterior">‹</button>
+      <span class="label" id="calendar-label">{months.find((m) => m.key === current)?.label}</span>
+      <button type="button" data-dir="1" aria-label="Mes siguiente">›</button>
+    </div>
+    {months.map((m) => (
+      <table class="month" data-month={m.key} data-label={m.label} hidden={m.key !== current}>
+        <caption class="visually-hidden">{m.label}</caption>
+        <thead>
+          <tr>
+            {WEEKDAYS.map((w) => <th scope="col">{w}</th>)}
+          </tr>
+        </thead>
+        <tbody>
+          {m.weeks.map((week) => (
+            <tr>
+              {week.map((d) =>
+                d === null ? (
+                  <td />
+                ) : available.has(d) ? (
+                  <td>
+                    <a href={`${base}dia/${d}/`} title={longDate(d)} aria-current={d === date ? "date" : undefined}>
+                      {Number(d.slice(8))}
+                    </a>
+                  </td>
+                ) : (
+                  <td>
+                    <span class="off">{Number(d.slice(8))}</span>
+                  </td>
+                ),
+              )}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    ))}
+  </div>
+</details>
+
+<style>
+  .calendar {
+    position: relative;
+  }
+  summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  summary:hover,
+  .calendar[open] summary {
+    color: var(--accent);
+  }
+  .panel {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    padding: 10px 12px 12px;
+    background: var(--bg-raised);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: 0 8px 24px rgb(0 0 0 / 0.12);
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+  .monthnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 6px;
+    color: var(--fg);
+  }
+  .monthnav button {
+    font: inherit;
+    font-size: 1.1rem;
+    line-height: 1;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--fg-muted);
+    cursor: pointer;
+  }
+  .monthnav button:hover:not(:disabled) {
+    color: var(--accent);
+    background: var(--accent-soft);
+  }
+  .monthnav button:disabled {
+    color: var(--fg-faint);
+    cursor: default;
+  }
+  .label {
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+  .label::first-letter {
+    text-transform: uppercase;
+  }
+  .month {
+    border-collapse: collapse;
+  }
+  .month[hidden] {
+    display: none;
+  }
+  th,
+  td {
+    width: 2.2em;
+    height: 2.2em;
+    padding: 0;
+    text-align: center;
+    font-weight: 400;
+  }
+  th {
+    font-size: 0.75rem;
+    color: var(--fg-faint);
+  }
+  td a,
+  td .off {
+    display: grid;
+    place-items: center;
+    width: 2em;
+    height: 2em;
+    margin: auto;
+    border-radius: 50%;
+  }
+  td a {
+    color: var(--fg);
+    text-decoration: none;
+  }
+  td a:hover {
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+  td a[aria-current="date"] {
+    background: var(--accent);
+    color: var(--accent-fg);
+  }
+  td .off {
+    color: var(--fg-faint);
+  }
+  /* Narrow screens: icon-only trigger (text stays for screen readers) and the
+     panel hangs from the whole daynav row so it cannot leave the viewport. */
+  @media (max-width: 479px) {
+    .text {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      white-space: nowrap;
+    }
+    .calendar {
+      position: static;
+    }
+    .panel {
+      left: 0;
+      transform: none;
+    }
+  }
+</style>
+
+<script>
+  const details = document.getElementById("calendar") as HTMLDetailsElement;
+  const panel = details.querySelector<HTMLElement>(".panel")!;
+  const label = document.getElementById("calendar-label")!;
+  const months = [...details.querySelectorAll<HTMLTableElement>(".month")];
+  const prev = details.querySelector<HTMLButtonElement>('[data-dir="-1"]')!;
+  const next = details.querySelector<HTMLButtonElement>('[data-dir="1"]')!;
+
+  let index = months.findIndex((m) => m.dataset.month === panel.dataset.current);
+
+  function show(i: number) {
+    index = Math.max(0, Math.min(months.length - 1, i));
+    for (const [j, m] of months.entries()) m.hidden = j !== index;
+    label.textContent = months[index].dataset.label ?? "";
+    prev.disabled = index === 0;
+    next.disabled = index === months.length - 1;
+  }
+
+  prev.addEventListener("click", () => show(index - 1));
+  next.addEventListener("click", () => show(index + 1));
+
+  document.addEventListener("click", (e) => {
+    if (details.open && !details.contains(e.target as Node)) details.open = false;
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && details.open) {
+      details.open = false;
+      details.querySelector("summary")?.focus();
+    }
+  });
+
+  show(index);
+</script>
