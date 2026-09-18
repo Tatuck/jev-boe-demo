@@ -15,6 +15,14 @@ Jev no genera texto: solo elige, puntúa y estima probabilidades. Por eso el "re
 
 La web es estática (Astro), sin login, y se sirve desde GitHub Pages. Los datos viven como JSON en `data/` dentro del repositorio.
 
+![La web: un día del BOE con la relevancia, las categorías y el párrafo que Jev elige para cada disposición](docs/demo-web.gif)
+
+*La web: cada disposición con su relevancia (0-3), sus categorías y el párrafo literal que Jev elige como resumen; filtros por categoría y navegación por días.*
+
+![El pipeline: las 77 disposiciones del BOE del 17-09-2026 analizadas por Jev en menos de 10 segundos](docs/demo-pipeline.gif)
+
+*El pipeline, salida real: `pnpm pipeline --date 2026-09-17 --dry-run --verbose`. 77 disposiciones, 334k tokens, 6 llamadas en paralelo, menos de 10 s de reloj.*
+
 ## Uso local
 
 ```sh
@@ -24,13 +32,20 @@ cp .env.example .env            # y pon tu TYPESAFE_API_KEY
 pnpm pipeline --today           # analiza el BOE de hoy → data/days/YYYY-MM-DD.json
 pnpm pipeline --date 2026-09-17 # un día concreto (--force para reanalizar)
 pnpm pipeline --backfill 7      # los últimos 7 días
+pnpm pipeline --date 2026-09-17 --dry-run --verbose
+                                # analiza sin escribir en data/, una línea por disposición según llega
 
 pnpm calibrate --date 2026-09-17 --limit 15 [--section 1|2B|3] [--lang es|en] [--full]
                                 # revisa a ojo categorías, extractos y scores sin escribir en data/
 
 pnpm dev                        # web en http://localhost:4321
 pnpm build && pnpm preview
+
+pnpm demo:web                   # regraba docs/demo-web.gif (construye la web y la recorre con Chrome headless)
+pnpm demo:pipeline              # regraba docs/demo-pipeline.gif (ejecuta el pipeline de verdad; ~0,01 $)
 ```
+
+Los GIFs se graban con `playwright-core` sobre el Chrome del sistema y `ffmpeg`; los scripts están en `demo/`.
 
 Los scripts del pipeline leen `TYPESAFE_API_KEY` del entorno (carga `.env` con `set -a; . ./.env; set +a` o usa tu gestor favorito).
 
@@ -57,6 +72,8 @@ pipeline/
   types.ts       tipos compartidos con la web
 data/            JSON por día (es la base de datos)
 src/             Astro: una página por día, filtros en cliente, sin framework de UI
+demo/            grabadores de los GIFs del README (playwright-core + ffmpeg)
+docs/            GIFs de demo
 .github/workflows/daily.yml
 ```
 
