@@ -1,0 +1,4179 @@
+{
+  "date": "2026-09-24",
+  "boe_numero": "236",
+  "model": "jev-1.13.0",
+  "generated_at": "2026-09-24T12:45:12.746Z",
+  "stats": {
+    "items": 63,
+    "analyzed": 63,
+    "failed": 0,
+    "relevantes": 0,
+    "wall_ms": 5398,
+    "jev_ms_sum": 7142,
+    "jev_ms_avg": 113,
+    "jev_ms_max": 242,
+    "jev_ms_min": 67,
+    "fetch_ms_sum": 17711,
+    "input_tokens": 302819,
+    "concurrency": 6
+  },
+  "items": [
+    {
+      "id": "BOE-A-2026-19839",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "BANCO DE ESPAÑA",
+      "epigrafe": "Mercado de divisas",
+      "titulo": "Resolución de 23 de septiembre de 2026, del Banco de España, por la que se publican los cambios del euro correspondientes al día 23 de septiembre de 2026, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19839",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19839.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19839",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 1,
+      "totalChars": 118,
+      "analysis": {
+        "relevancia": {
+          "score": 1.58,
+          "confidence": 0,
+          "probabilities": {
+            "0": 0.34,
+            "1": 0.09,
+            "2": 0.23,
+            "3": 0.34
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.47,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": null
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 140,
+        "jev_ms": 87
+      },
+      "usage": {
+        "input_tokens": 2425
+      }
+    },
+    {
+      "id": "BOE-A-2026-19790",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario",
+      "titulo": "Resolución de 16 de septiembre de 2026, de la Diputación Provincial de León, referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19790",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19790.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19790",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 941,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.97,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.98,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.03,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.06,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p4",
+          "texto": "El plazo de presentación de solicitudes será de quince días hábiles a contar desde el siguiente al de la publicación de esta resolución en el «Boletín Oficial del Estado».",
+          "p": 0.51,
+          "confidence": 0.41
+        },
+        "oposicion": {
+          "nueva": 0.64,
+          "libre": 0.6
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 156,
+        "jev_ms": 139
+      },
+      "usage": {
+        "input_tokens": 2859
+      }
+    },
+    {
+      "id": "BOE-A-2026-19797",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 15 de septiembre de 2026, del Ayuntamiento de La Garrovilla (Badajoz), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19797",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19797.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19797",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 7,
+      "totalChars": 1088,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.03,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.05,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.05,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p5",
+          "texto": "El plazo de presentación de solicitudes será de veinte días hábiles a contar desde el siguiente al de la publicación de esta resolución en el «Boletín Oficial del Estado».",
+          "p": 0.65,
+          "confidence": 0.59
+        },
+        "oposicion": {
+          "nueva": 0.86,
+          "libre": 0.45
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 157,
+        "jev_ms": 84
+      },
+      "usage": {
+        "input_tokens": 2916
+      }
+    },
+    {
+      "id": "BOE-A-2026-19802",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 16 de septiembre de 2026, de la Diputación Provincial de Cuenca, referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19802",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19802.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19802",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 824,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.98,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.05,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.14,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.04
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Treinta y seis plazas de Mecánico/a Bombero/a Conductor/a, pertenecientes a la escala de Administración Especial, subescala Servicios especiales y clase Servicio de extinción de incendios, por el sistema de oposición, en turno libre.",
+          "p": 0.91,
+          "confidence": 0.89
+        },
+        "oposicion": {
+          "nueva": 0.96,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 152,
+        "jev_ms": 67
+      },
+      "usage": {
+        "input_tokens": 2793
+      }
+    },
+    {
+      "id": "BOE-A-2026-19808",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 17 de septiembre de 2026, del Ayuntamiento de Oviedo (Asturias), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19808",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19808.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19808",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 799,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.03,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.06,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.05,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Seis plazas de Agente de Policía Local, pertenecientes a la escala de Administración Especial, subescala Servicios especiales y clase Policía Local y sus auxiliares, por el sistema de concurso, en turno de movilidad.",
+          "p": 0.97,
+          "confidence": 0.96
+        },
+        "oposicion": {
+          "nueva": 0.95,
+          "libre": 0.14
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 161,
+        "jev_ms": 97
+      },
+      "usage": {
+        "input_tokens": 2782
+      }
+    },
+    {
+      "id": "BOE-A-2026-19809",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 17 de septiembre de 2026, del Ayuntamiento de La Puebla del Río (Sevilla), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19809",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19809.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19809",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 932,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0,
+            "1": 1,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.08,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.05,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Cuatro plazas de Policía Local, pertenecientes a la escala de Administración Especial, subescala Servicios especiales y clase Policía Local y sus auxiliares, por el sistema de oposición, en turno libre.",
+          "p": 0.72,
+          "confidence": 0.66
+        },
+        "oposicion": {
+          "nueva": 0.9,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 153,
+        "jev_ms": 98
+      },
+      "usage": {
+        "input_tokens": 2846
+      }
+    },
+    {
+      "id": "BOE-A-2026-19810",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 17 de septiembre de 2026, del Ayuntamiento de Oviedo (Asturias), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19810",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19810.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19810",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 900,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0,
+            "1": 1,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.06,
+          "educacion": 0.05,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.16,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.04
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Siete plazas de Agente Técnico/a Conductor/a Especialista del Servicio de Extinción de Incendios y Salvamento del Ayuntamiento de Oviedo, pertenecientes a la escala de Administración Especial, subescala Servicios especiales y clase Servicio de extinción de incendios, por el sistema de oposición, en turno libre.",
+          "p": 0.94,
+          "confidence": 0.92
+        },
+        "oposicion": {
+          "nueva": 0.96,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 151,
+        "jev_ms": 121
+      },
+      "usage": {
+        "input_tokens": 2803
+      }
+    },
+    {
+      "id": "BOE-A-2026-19812",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 17 de septiembre de 2026, del Ayuntamiento de A Coruña, referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19812",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19812.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19812",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 800,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0,
+            "1": 1,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.04,
+          "educacion": 0.05,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Dieciocho plazas de Técnico/a de Administración General, pertenecientes a la escala de Administración General, subescala Técnica, por el sistema de oposición, en turno libre.",
+          "p": 0.77,
+          "confidence": 0.72
+        },
+        "oposicion": {
+          "nueva": 0.8,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 154,
+        "jev_ms": 84
+      },
+      "usage": {
+        "input_tokens": 2782
+      }
+    },
+    {
+      "id": "BOE-A-2026-19822",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "UNIVERSIDADES",
+      "epigrafe": "Personal técnico, de gestión y de administración y servicios",
+      "titulo": "Resolución de 16 de septiembre de 2026, de la Universidad Nacional de Educación a Distancia, por la que se convocan pruebas selectivas para la provisión, por el sistema general de acceso libre, de plaza de personal laboral, Grupo III, Nivel B.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19822",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19822.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19822",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": true,
+      "totalParagraphs": 246,
+      "totalChars": 46768,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0,
+            "1": 1,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          },
+          {
+            "id": "educacion",
+            "p": 0.96
+          },
+          {
+            "id": "extranjeria",
+            "p": 0.91
+          },
+          {
+            "id": "impuestos-y-hacienda",
+            "p": 0.74
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.06,
+          "impuestos-y-hacienda": 0.74,
+          "pensiones-y-seguridad-social": 0.41,
+          "sanidad": 0.06,
+          "educacion": 0.96,
+          "ayudas-y-subvenciones": 0.21,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.91,
+          "justicia-y-derechos": 0.15,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p6",
+          "texto": "1.1 Se convocan pruebas selectivas mediante el sistema de concurso-oposición libre para la cobertura de una plaza de PTGAS laboral de la UNED, Grupo III, Nivel B, en CTU. Sistemas y Bases de Datos.",
+          "p": 0.86,
+          "confidence": 0.84
+        },
+        "oposicion": {
+          "nueva": 0.94,
+          "libre": 0.98
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 301,
+        "jev_ms": 143
+      },
+      "usage": {
+        "input_tokens": 9406
+      }
+    },
+    {
+      "id": "BOE-A-2026-19795",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 14 de septiembre de 2026, del Ayuntamiento de Turís (Valencia/València), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19795",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19795.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19795",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 864,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.06,
+          "educacion": 0.39,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p4",
+          "texto": "El plazo de presentación de solicitudes será de veinte días hábiles a contar desde el siguiente al de la publicación de esta resolución en el «Boletín Oficial del Estado».",
+          "p": 0.63,
+          "confidence": 0.53
+        },
+        "oposicion": {
+          "nueva": 0.87,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 156,
+        "jev_ms": 104
+      },
+      "usage": {
+        "input_tokens": 2821
+      }
+    },
+    {
+      "id": "BOE-A-2026-19798",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 16 de septiembre de 2026, de la Diputación Provincial de Ávila, referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19798",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19798.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19798",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 819,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.04,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.05,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Arquitecto/a técnico/Aparejador/a, perteneciente a la escala de Administración Especial, subescala Técnica y clase Media, por el sistema de oposición, en turno libre.",
+          "p": 0.74,
+          "confidence": 0.66
+        },
+        "oposicion": {
+          "nueva": 0.72,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 155,
+        "jev_ms": 112
+      },
+      "usage": {
+        "input_tokens": 2794
+      }
+    },
+    {
+      "id": "BOE-A-2026-19799",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 16 de septiembre de 2026, del Ayuntamiento de Fuenlabrada (Madrid), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19799",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19799.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19799",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 771,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.04,
+          "educacion": 0.06,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.04
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Dos plazas de Técnico/a Medio de Proyectos Europeos, pertenecientes a la escala de Administración Especial, subescala Técnica y clase Media, por el sistema de concurso-oposición, en turno libre.",
+          "p": 0.84,
+          "confidence": 0.8
+        },
+        "oposicion": {
+          "nueva": 0.94,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 156,
+        "jev_ms": 112
+      },
+      "usage": {
+        "input_tokens": 2776
+      }
+    },
+    {
+      "id": "BOE-A-2026-19800",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 16 de septiembre de 2026, de la Cuadrilla de Añana (Araba/Álava), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19800",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19800.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19800",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 918,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.06,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.03,
+          "educacion": 0.05,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.06,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p4",
+          "texto": "El plazo de presentación de solicitudes será de veinte días hábiles a contar desde el siguiente al de la publicación de esta resolución en el «Boletín Oficial del Estado».",
+          "p": 0.52,
+          "confidence": 0.41
+        },
+        "oposicion": {
+          "nueva": 0.59,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 154,
+        "jev_ms": 76
+      },
+      "usage": {
+        "input_tokens": 2853
+      }
+    },
+    {
+      "id": "BOE-A-2026-19801",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 16 de septiembre de 2026, del Ayuntamiento de Guadalajara, referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19801",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19801.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19801",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 712,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.1,
+          "educacion": 0.11,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.06,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Monitor/a Deportivo Socorrista de la plantilla de personal laboral fijo, por el sistema de oposición, en turno libre.",
+          "p": 0.89,
+          "confidence": 0.85
+        },
+        "oposicion": {
+          "nueva": 0.95,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 156,
+        "jev_ms": 99
+      },
+      "usage": {
+        "input_tokens": 2752
+      }
+    },
+    {
+      "id": "BOE-A-2026-19803",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 17 de septiembre de 2026, del Ayuntamiento de Canovelles (Barcelona), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19803",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19803.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19803",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 837,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.34,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Trabajador/a Social de la plantilla de personal laboral fijo, por el sistema de concurso-oposición, en turno libre.",
+          "p": 0.74,
+          "confidence": 0.68
+        },
+        "oposicion": {
+          "nueva": 0.94,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 157,
+        "jev_ms": 141
+      },
+      "usage": {
+        "input_tokens": 2819
+      }
+    },
+    {
+      "id": "BOE-A-2026-19804",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 17 de septiembre de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19804",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19804.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19804",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 961,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.03,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.06,
+          "transporte-y-trafico": 0.06,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.04,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Tres plazas de Intendente de la Policía Local, pertenecientes a la escala de Administración Especial, subescala Servicios especiales y clase Policía Local y sus auxiliares, por el sistema de concurso-oposición, en turno de promoción interna.",
+          "p": 0.63,
+          "confidence": 0.53
+        },
+        "oposicion": {
+          "nueva": 0.64,
+          "libre": 0.03
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 155,
+        "jev_ms": 92
+      },
+      "usage": {
+        "input_tokens": 2843
+      }
+    },
+    {
+      "id": "BOE-A-2026-19806",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 17 de septiembre de 2026, de la Mancomunidad La Serranía (Valencia/València), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19806",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19806.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19806",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 750,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0.02,
+            "1": 0.98,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.18,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.04,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Trabajador/a social, perteneciente a la escala de Administración Especial, subescala Técnica, por el sistema de concurso-oposición, en turno libre.",
+          "p": 0.9,
+          "confidence": 0.88
+        },
+        "oposicion": {
+          "nueva": 0.94,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 157,
+        "jev_ms": 111
+      },
+      "usage": {
+        "input_tokens": 2780
+      }
+    },
+    {
+      "id": "BOE-A-2026-19807",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 17 de septiembre de 2026, del Ayuntamiento de Logrosán (Cáceres), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19807",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19807.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19807",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 722,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.06,
+          "transporte-y-trafico": 0.08,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Operario/a de Servicios Múltiples-Maquinista de la plantilla de personal laboral fijo, por el sistema de concurso-oposición, en turno libre.",
+          "p": 0.93,
+          "confidence": 0.9
+        },
+        "oposicion": {
+          "nueva": 0.96,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 153,
+        "jev_ms": 79
+      },
+      "usage": {
+        "input_tokens": 2767
+      }
+    },
+    {
+      "id": "BOE-A-2026-19811",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 17 de septiembre de 2026, del Ayuntamiento de El Ejido (Almería), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19811",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19811.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19811",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 924,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.04,
+          "educacion": 0.05,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.04
+        },
+        "extracto": {
+          "id": "p4",
+          "texto": "El plazo de presentación de solicitudes será de veinte días naturales a contar desde el siguiente al de la publicación de esta resolución en el «Boletín Oficial del Estado».",
+          "p": 0.77,
+          "confidence": 0.71
+        },
+        "oposicion": {
+          "nueva": 0.82,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 152,
+        "jev_ms": 106
+      },
+      "usage": {
+        "input_tokens": 2827
+      }
+    },
+    {
+      "id": "BOE-A-2026-19813",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 17 de septiembre de 2026, del Ayuntamiento de Guitiriz (Lugo), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19813",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19813.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19813",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 857,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.04,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.06,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Administrativo/a, perteneciente a la escala de Administración General, subescala Administrativa, por el sistema de oposición, en turno libre.",
+          "p": 0.72,
+          "confidence": 0.65
+        },
+        "oposicion": {
+          "nueva": 0.84,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 1211,
+        "jev_ms": 125
+      },
+      "usage": {
+        "input_tokens": 2835
+      }
+    },
+    {
+      "id": "BOE-A-2026-19814",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 18 de septiembre de 2026, del Ayuntamiento de Mengíbar (Jaén), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19814",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19814.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19814",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 839,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.17,
+          "educacion": 0.05,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.04,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Técnico/a de Bienestar Social de la plantilla de personal laboral fijo, por el sistema de concurso-oposición, en turno libre.",
+          "p": 0.75,
+          "confidence": 0.69
+        },
+        "oposicion": {
+          "nueva": 0.77,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 154,
+        "jev_ms": 90
+      },
+      "usage": {
+        "input_tokens": 2825
+      }
+    },
+    {
+      "id": "BOE-A-2026-19815",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 18 de septiembre de 2026, del Ayuntamiento de Santa Margarida i els Monjos (Barcelona), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19815",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19815.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19815",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 764,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.04,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Auxiliar Administrativo/a, perteneciente a la escala de Administración General, subescala Auxiliar y clase Auxiliar, por el sistema de concurso-oposición, en turno libre.",
+          "p": 0.94,
+          "confidence": 0.92
+        },
+        "oposicion": {
+          "nueva": 0.96,
+          "libre": 0.98
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 151,
+        "jev_ms": 92
+      },
+      "usage": {
+        "input_tokens": 2775
+      }
+    },
+    {
+      "id": "BOE-A-2026-19819",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "UNIVERSIDADES",
+      "epigrafe": "Cuerpos docentes universitarios",
+      "titulo": "Resolución de 17 de septiembre de 2026, de la Universidad Autónoma de Barcelona, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19819",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19819.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19819",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 170,
+      "totalChars": 10998,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.96,
+          "probabilities": {
+            "0": 0.02,
+            "1": 0.97,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "educacion",
+            "p": 0.99
+          },
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.04,
+          "educacion": 0.99,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.06,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.09,
+          "medio-ambiente-y-energia": 0.07
+        },
+        "extracto": {
+          "id": "p5",
+          "texto": "Convocar los procesos selectivos para el nombramiento de profesorado de cuerpos docentes que figuran en el anexo de esta convocatoria.",
+          "p": 0.68,
+          "confidence": 0.66
+        },
+        "oposicion": {
+          "nueva": 0.96,
+          "libre": 0.61
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 309,
+        "jev_ms": 142
+      },
+      "usage": {
+        "input_tokens": 9278
+      }
+    },
+    {
+      "id": "BOE-A-2026-19821",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "UNIVERSIDADES",
+      "epigrafe": "Personal técnico, de gestión y de administración y servicios",
+      "titulo": "Resolución de 16 de septiembre de 2026, de la Universidad Nacional de Educación a Distancia, por la que se convocan pruebas selectivas para ingreso, por el sistema de promoción interna, en la Escala de Facultativos de Archivos, Bibliotecas y Museos.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19821",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19821.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19821",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": true,
+      "totalParagraphs": 267,
+      "totalChars": 43233,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          },
+          {
+            "id": "educacion",
+            "p": 0.98
+          },
+          {
+            "id": "impuestos-y-hacienda",
+            "p": 0.75
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.75,
+          "pensiones-y-seguridad-social": 0.29,
+          "sanidad": 0.06,
+          "educacion": 0.98,
+          "ayudas-y-subvenciones": 0.17,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.08,
+          "justicia-y-derechos": 0.17,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p5",
+          "texto": "1.1 Se convocan pruebas selectivas para cubrir dos plazas de la Escala de Facultativos de Archivos, Bibliotecas y Museos de la UNED, subgrupo A1, por el sistema de promoción interna.",
+          "p": 0.5,
+          "confidence": 0.48
+        },
+        "oposicion": {
+          "nueva": 0.95,
+          "libre": 0.02
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 166,
+        "jev_ms": 184
+      },
+      "usage": {
+        "input_tokens": 10152
+      }
+    },
+    {
+      "id": "BOE-A-2026-19789",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario",
+      "titulo": "Resolución de 15 de septiembre de 2026, del Ayuntamiento de A Coruña, referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19789",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19789.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19789",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 9,
+      "totalChars": 1256,
+      "analysis": {
+        "relevancia": {
+          "score": 0.98,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0.02,
+            "1": 0.98,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.04,
+          "educacion": 0.05,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.07,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.04
+        },
+        "extracto": {
+          "id": "p7",
+          "texto": "El plazo de presentación de solicitudes será de diez días hábiles a contar desde el siguiente al de la publicación de esta resolución en el «Boletín Oficial del Estado».",
+          "p": 0.87,
+          "confidence": 0.84
+        },
+        "oposicion": {
+          "nueva": 0.76,
+          "libre": 0.58
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 155,
+        "jev_ms": 108
+      },
+      "usage": {
+        "input_tokens": 3004
+      }
+    },
+    {
+      "id": "BOE-A-2026-19794",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 10 de septiembre de 2026, del Ayuntamiento de Sant Joan d'Alacant (Alicante/Alacant), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19794",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19794.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19794",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 769,
+      "analysis": {
+        "relevancia": {
+          "score": 0.98,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0.02,
+            "1": 0.98,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Técnico/a de contratación, perteneciente a la escala de Administración General, subescala Gestión y clase Media, por el sistema de concurso-oposición, en turno de promoción interna.",
+          "p": 0.83,
+          "confidence": 0.78
+        },
+        "oposicion": {
+          "nueva": 0.72,
+          "libre": 0.02
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 152,
+        "jev_ms": 80
+      },
+      "usage": {
+        "input_tokens": 2779
+      }
+    },
+    {
+      "id": "BOE-A-2026-19796",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 14 de septiembre de 2026, del Ayuntamiento de Granada, Agencia Municipal Tributaria (Granada), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19796",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19796.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19796",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 10,
+      "totalChars": 1781,
+      "analysis": {
+        "relevancia": {
+          "score": 0.98,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0.02,
+            "1": 0.98,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.11,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.03,
+          "educacion": 0.06,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.11,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p8",
+          "texto": "El plazo de presentación de solicitudes será de veinte días naturales a contar desde el siguiente al de la publicación de esta resolución en el «Boletín Oficial del Estado».",
+          "p": 0.78,
+          "confidence": 0.75
+        },
+        "oposicion": {
+          "nueva": 0.68,
+          "libre": 0.03
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 155,
+        "jev_ms": 88
+      },
+      "usage": {
+        "input_tokens": 3147
+      }
+    },
+    {
+      "id": "BOE-A-2026-19805",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 17 de septiembre de 2026, del Ayuntamiento de Abadiño (Bizkaia), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19805",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19805.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19805",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 710,
+      "analysis": {
+        "relevancia": {
+          "score": 0.98,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0.02,
+            "1": 0.98,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Conserje, perteneciente a la escala de Administración Especial, subescala Servicios especiales, por el sistema de concurso-oposición, en turno libre.",
+          "p": 0.87,
+          "confidence": 0.82
+        },
+        "oposicion": {
+          "nueva": 0.95,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 153,
+        "jev_ms": 81
+      },
+      "usage": {
+        "input_tokens": 2761
+      }
+    },
+    {
+      "id": "BOE-A-2026-19785",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+      "epigrafe": "Escala de Gestión de Organismos Autónomos",
+      "titulo": "Resolución de 16 de septiembre de 2026, de la Secretaría de Estado de Función Pública, por la que se publica la relación definitiva de aspirantes que han superado el proceso selectivo para acceso, a la Escala de Gestión de Organismos Autónomos, para el cambio de régimen jurídico del personal laboral fijo incluido en el Anexo II del IV Convenio Único para el personal laboral de la Administración General del Estado, convocado por Resolución de 21 de abril de 2025.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19785",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19785.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19785",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 21,
+      "totalChars": 4884,
+      "analysis": {
+        "relevancia": {
+          "score": 0.97,
+          "confidence": 0.97,
+          "probabilities": {
+            "0": 0.03,
+            "1": 0.97,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.05,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.05,
+          "sanidad": 0.03,
+          "educacion": 0.5,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.09,
+          "justicia-y-derechos": 0.06,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p3",
+          "texto": "Hacer pública, como anexo I, la relación definitiva de personas aspirantes que han superado las referidas pruebas selectivas, por orden de puntuación en función de la suma de las puntuaciones obtenidas en el ejercicio único de la fase de oposición y en la fase de concurso.",
+          "p": 0.69,
+          "confidence": 0.66
+        },
+        "oposicion": {
+          "nueva": 0.03,
+          "libre": 0.51
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 1254,
+        "jev_ms": 182
+      },
+      "usage": {
+        "input_tokens": 4245
+      }
+    },
+    {
+      "id": "BOE-A-2026-19816",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "UNIVERSIDADES",
+      "epigrafe": "Cuerpos docentes universitarios",
+      "titulo": "Resolución de 17 de septiembre de 2026, de la Universidad Autónoma de Barcelona, por la que se convoca concurso de acceso a plaza de cuerpos docentes universitarios.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19816",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19816.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19816",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 23,
+      "totalChars": 3307,
+      "analysis": {
+        "relevancia": {
+          "score": 0.97,
+          "confidence": 0.96,
+          "probabilities": {
+            "0": 0.04,
+            "1": 0.95,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "educacion",
+            "p": 0.99
+          },
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.04,
+          "educacion": 0.99,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.08,
+          "medio-ambiente-y-energia": 0.05
+        },
+        "extracto": {
+          "id": "p5",
+          "texto": "Convocar los procesos selectivos para el nombramiento de profesorado de cuerpos docentes que figuran en el anexo de esta convocatoria.",
+          "p": 0.86,
+          "confidence": 0.84
+        },
+        "oposicion": {
+          "nueva": 0.96,
+          "libre": 0.94
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 163,
+        "jev_ms": 136
+      },
+      "usage": {
+        "input_tokens": 3875
+      }
+    },
+    {
+      "id": "BOE-A-2026-19817",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "UNIVERSIDADES",
+      "epigrafe": "Cuerpos docentes universitarios",
+      "titulo": "Resolución de 17 de septiembre de 2026, de la Universidad Autónoma de Barcelona, por la que se convoca concurso de acceso a plaza de cuerpos docentes universitarios.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19817",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19817.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19817",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 23,
+      "totalChars": 3426,
+      "analysis": {
+        "relevancia": {
+          "score": 0.97,
+          "confidence": 0.95,
+          "probabilities": {
+            "0": 0.04,
+            "1": 0.95,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "educacion",
+            "p": 0.99
+          },
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.03,
+          "educacion": 0.99,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.07,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p5",
+          "texto": "Convocar los procesos selectivos para el nombramiento de profesorado de cuerpos docentes que figuran en el anexo de esta convocatoria.",
+          "p": 0.88,
+          "confidence": 0.86
+        },
+        "oposicion": {
+          "nueva": 0.96,
+          "libre": 0.93
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 152,
+        "jev_ms": 97
+      },
+      "usage": {
+        "input_tokens": 3923
+      }
+    },
+    {
+      "id": "BOE-A-2026-19818",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "UNIVERSIDADES",
+      "epigrafe": "Cuerpos docentes universitarios",
+      "titulo": "Resolución de 17 de septiembre de 2026, de la Universidad Autónoma de Barcelona, por la que se convoca concurso de acceso a plaza de cuerpos docentes universitarios.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19818",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19818.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19818",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 23,
+      "totalChars": 3386,
+      "analysis": {
+        "relevancia": {
+          "score": 0.97,
+          "confidence": 0.95,
+          "probabilities": {
+            "0": 0.04,
+            "1": 0.95,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "educacion",
+            "p": 0.99
+          },
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.05,
+          "educacion": 0.99,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.08,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p5",
+          "texto": "Convocar los procesos selectivos para el nombramiento de profesorado de cuerpos docentes que figuran en el anexo de esta convocatoria.",
+          "p": 0.86,
+          "confidence": 0.84
+        },
+        "oposicion": {
+          "nueva": 0.96,
+          "libre": 0.93
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 154,
+        "jev_ms": 102
+      },
+      "usage": {
+        "input_tokens": 3909
+      }
+    },
+    {
+      "id": "BOE-A-2026-19834",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+      "epigrafe": "Denominaciones de origen",
+      "titulo": "Orden APA/994/2026, de 14 de septiembre, por la que se reconocen determinados parajes vitícolas («viñedos singulares») identificados dentro de la Denominación de Origen Calificada «Rioja».",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19834",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19834.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19834",
+      "rango": "Orden",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 13,
+      "totalChars": 3755,
+      "analysis": {
+        "relevancia": {
+          "score": 0.97,
+          "confidence": 0.95,
+          "probabilities": {
+            "0": 0.04,
+            "1": 0.95,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "consumo-y-empresas",
+            "p": 0.74
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.74,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.18,
+          "medio-ambiente-y-energia": 0.34
+        },
+        "extracto": {
+          "id": "p8",
+          "texto": "Reconocer los nuevos parajes solicitados, dentro de la Denominación de Origen Calificada «Rioja», tal y como figuran en el anexo de la presente orden, y desestimar otra solicitud respecto de la cual se formuló requerimiento de subsanación o información aclaratoria y que fue desatendido.",
+          "p": 1,
+          "confidence": 1
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 158,
+        "jev_ms": 71
+      },
+      "usage": {
+        "input_tokens": 3712
+      }
+    },
+    {
+      "id": "BOE-A-2026-19793",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario",
+      "titulo": "Resolución de 17 de septiembre de 2026, del Ayuntamiento de Toledo, referente a la convocatoria para proveer puesto de trabajo por el sistema de concurso.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19793",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19793.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19793",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 731,
+      "analysis": {
+        "relevancia": {
+          "score": 0.96,
+          "confidence": 0.95,
+          "probabilities": {
+            "0": 0.05,
+            "1": 0.95,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.04,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.25
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Un puesto de Adjuntía Jefatura de Servicio de Medio Ambiente, perteneciente a la escala de Administración Especial, subescala Técnica y clase Media.",
+          "p": 0.67,
+          "confidence": 0.55
+        },
+        "oposicion": {
+          "nueva": 0.93,
+          "libre": 0.52
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 155,
+        "jev_ms": 82
+      },
+      "usage": {
+        "input_tokens": 2759
+      }
+    },
+    {
+      "id": "BOE-A-2026-19791",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario",
+      "titulo": "Resolución de 16 de septiembre de 2026, de la Diputación Provincial de León, referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19791",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19791.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19791",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 932,
+      "analysis": {
+        "relevancia": {
+          "score": 0.94,
+          "confidence": 0.93,
+          "probabilities": {
+            "0": 0.07,
+            "1": 0.92,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.11,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p4",
+          "texto": "El plazo de presentación de solicitudes será de quince días hábiles a contar desde el siguiente al de la publicación de esta resolución en el «Boletín Oficial del Estado».",
+          "p": 0.57,
+          "confidence": 0.49
+        },
+        "oposicion": {
+          "nueva": 0.9,
+          "libre": 0.52
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 156,
+        "jev_ms": 121
+      },
+      "usage": {
+        "input_tokens": 2854
+      }
+    },
+    {
+      "id": "BOE-A-2026-19828",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DEL INTERIOR",
+      "epigrafe": "Convenios",
+      "titulo": "Resolución de 15 de septiembre de 2026, de la Secretaría General Técnica, por la que se publica el Convenio entre la Secretaría de Estado de Seguridad y el Ayuntamiento de La Almunia de Doña Godina, en materia de seguridad.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19828",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19828.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19828",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 77,
+      "totalChars": 17393,
+      "analysis": {
+        "relevancia": {
+          "score": 0.91,
+          "confidence": 0.9,
+          "probabilities": {
+            "0": 0.09,
+            "1": 0.91,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "justicia-y-derechos",
+            "p": 0.79
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.04,
+          "empleo-y-trabajo": 0.06,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.05,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.04,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.06,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.79,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p28",
+          "texto": "El presente convenio tiene por objeto el desarrollo y aplicación de determinadas medidas para reforzar la colaboración y coordinación entre la Guardia Civil y la Policía Local del Ayuntamiento en materia de seguridad ciudadana, en el ámbito del término municipal correspondiente, de acuerdo con sus respectivas competencias.",
+          "p": 0.94,
+          "confidence": 0.93
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 153,
+        "jev_ms": 131
+      },
+      "usage": {
+        "input_tokens": 8505
+      }
+    },
+    {
+      "id": "BOE-A-2026-19829",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DEL INTERIOR",
+      "epigrafe": "Convenios",
+      "titulo": "Resolución de 15 de septiembre de 2026, de la Secretaría General Técnica, por la que se publica el Convenio entre la Secretaría de Estado de Seguridad y el Ayuntamiento de Recas, en materia de seguridad.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19829",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19829.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19829",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 77,
+      "totalChars": 17304,
+      "analysis": {
+        "relevancia": {
+          "score": 0.9,
+          "confidence": 0.9,
+          "probabilities": {
+            "0": 0.1,
+            "1": 0.9,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "justicia-y-derechos",
+            "p": 0.77
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.04,
+          "empleo-y-trabajo": 0.05,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.05,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.04,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.06,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.77,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p28",
+          "texto": "El presente convenio tiene por objeto el desarrollo y aplicación de determinadas medidas para reforzar la colaboración y coordinación entre la Guardia Civil y la Policía Local del Ayuntamiento en materia de seguridad ciudadana, en el ámbito del término municipal correspondiente, de acuerdo con sus respectivas competencias.",
+          "p": 0.92,
+          "confidence": 0.91
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 157,
+        "jev_ms": 117
+      },
+      "usage": {
+        "input_tokens": 8455
+      }
+    },
+    {
+      "id": "BOE-A-2026-19783",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "MINISTERIO DE INDUSTRIA Y TURISMO",
+      "epigrafe": "Personal funcionario. Concursos",
+      "titulo": "Resolución de 21 de septiembre de 2026, de la Subsecretaría, por la que se convoca concurso general para la provisión de puestos de trabajo en el Instituto de Turismo de España.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19783",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19783.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19783",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": true,
+      "totalParagraphs": 222,
+      "totalChars": 54002,
+      "analysis": {
+        "relevancia": {
+          "score": 0.89,
+          "confidence": 0.86,
+          "probabilities": {
+            "0": 0.12,
+            "1": 0.86,
+            "2": 0.02,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.15,
+          "sanidad": 0.04,
+          "educacion": 0.57,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.07,
+          "justicia-y-derechos": 0.17,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p1",
+          "texto": "De conformidad con lo dispuesto en el artículo 20 de la Ley 30/1984, de 2 de agosto, de Medidas para la Reforma de la Función Pública, y en el artículo 40.1 del Reglamento General de Ingreso del Personal al servicio de la Administración General del Estado y de Provisión de Puestos de Trabajo y Promoción Profesional de los Funcionarios Civiles de la Administración General del Estado, aprobado por Real Decreto 364/1995, de 10 de marzo, previa la aprobación de la Secretaría de Estado de Función Pública, dispongo convocar concurso general para cubrir las vacantes que se relacionan en el anexo I de esta resolución, con arreglo a las siguientes bases.",
+          "p": 0.47,
+          "confidence": 0.45
+        },
+        "oposicion": {
+          "nueva": 0.97,
+          "libre": 0.05
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 1086,
+        "jev_ms": 133
+      },
+      "usage": {
+        "input_tokens": 9121
+      }
+    },
+    {
+      "id": "BOE-A-2026-19786",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+      "epigrafe": "Funcionarios de administración local con habilitación de carácter nacional",
+      "titulo": "Resolución de 17 de septiembre de 2026, de la Dirección General de la Función Pública, por la que se publica la convocatoria para la provisión de puesto de trabajo reservado al personal funcionario de administración local con habilitación de carácter nacional, por el sistema de libre designación.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19786",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19786.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19786",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 17,
+      "totalChars": 3592,
+      "analysis": {
+        "relevancia": {
+          "score": 0.85,
+          "confidence": 0.85,
+          "probabilities": {
+            "0": 0.15,
+            "1": 0.85,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.05,
+          "sanidad": 0.03,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.05,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Esta Dirección General acuerda publicar, en extracto, la convocatoria para la provisión por el sistema de libre designación del puesto de Secretaría General, clase 1.ª de la Diputación Provincial de Burgos, convocado por la Dirección de Administración Local de la Consejería de la Presidencia de la Comunidad Autónoma de Castilla y León, reservado a personal funcionario de Administración Local con habilitación de carácter nacional y relacionado en el anexo, con arreglo a las siguientes bases:",
+          "p": 0.9,
+          "confidence": 0.88
+        },
+        "oposicion": {
+          "nueva": 0.72,
+          "libre": 0.03
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 1134,
+        "jev_ms": 122
+      },
+      "usage": {
+        "input_tokens": 3830
+      }
+    },
+    {
+      "id": "BOE-A-2026-19788",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "COMUNITAT VALENCIANA",
+      "epigrafe": "Cuerpos de Gestión Procesal y Administrativa, Tramitación Procesal y Administrativa y Auxilio Judicial de la Administración de Justicia",
+      "titulo": "Resolución de 17 de septiembre de 2026, de la Dirección General de Justicia y Autogobierno, de la Conselleria de Justica, Transparencia y Participación, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación, para los Cuerpos de Gestión Procesal y Administrativa, Tramitación Procesal y Administrativa y Auxilio Judicial de la Administración de Justicia.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19788",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19788.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19788",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 21,
+      "totalChars": 5142,
+      "analysis": {
+        "relevancia": {
+          "score": 0.85,
+          "confidence": 0.82,
+          "probabilities": {
+            "0": 0.17,
+            "1": 0.81,
+            "2": 0.02,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.03,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.06,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p5",
+          "texto": "Los puestos de trabajo que se convocan podrán ser solicitados por los funcionarios pertenecientes a los Cuerpos de Gestión Procesal y Administrativa, Tramitación Procesal y Administrativa y Auxilio Judicial que se encuentren en situación de servicio activo, o en cualesquiera otras que comporten la reserva del puesto de trabajo, en el momento de finalización del plazo de presentación de solicitudes.",
+          "p": 0.6,
+          "confidence": 0.55
+        },
+        "oposicion": {
+          "nueva": 0.92,
+          "libre": 0.03
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 303,
+        "jev_ms": 79
+      },
+      "usage": {
+        "input_tokens": 4284
+      }
+    },
+    {
+      "id": "BOE-A-2026-19840",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+      "epigrafe": "Municipios. Mancomunidades",
+      "titulo": "Resolución PRE/2554/2026, de 16 de julio, por la que se publica la aprobación de la modificación de los Estatutos de la Mancomunidad Intermunicipal Voluntaria La Plana.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19840",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19840.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19840",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 14,
+      "totalChars": 2690,
+      "analysis": {
+        "relevancia": {
+          "score": 0.85,
+          "confidence": 0.84,
+          "probabilities": {
+            "0": 0.15,
+            "1": 0.85,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.04,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.04,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.06,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p9",
+          "texto": "Se modifica este artículo para incluir la adhesión del municipio de Collsuspina y de la Entidad Municipal Descentralizada de Sant Miquel de Balenyà en la mancomunidad. Además, se añade en este artículo la posibilidad de que en el futuro otras entidades municipales descentralizadas puedan asociarse.",
+          "p": 0.58,
+          "confidence": 0.52
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 156,
+        "jev_ms": 114
+      },
+      "usage": {
+        "input_tokens": 3454
+      }
+    },
+    {
+      "id": "BOE-A-2026-19792",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario",
+      "titulo": "Resolución de 16 de septiembre de 2026, del Ayuntamiento de Granada, referente a la convocatoria para proveer puesto de trabajo por el sistema de libre designación.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19792",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19792.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19792",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 900,
+      "analysis": {
+        "relevancia": {
+          "score": 0.79,
+          "confidence": 0.79,
+          "probabilities": {
+            "0": 0.21,
+            "1": 0.79,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.08,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p4",
+          "texto": "El plazo de presentación de solicitudes será de quince días hábiles a contar desde el siguiente al de la publicación de esta resolución en el «Boletín Oficial del Estado».",
+          "p": 0.53,
+          "confidence": 0.43
+        },
+        "oposicion": {
+          "nueva": 0.52,
+          "libre": 0.56
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 158,
+        "jev_ms": 89
+      },
+      "usage": {
+        "input_tokens": 2851
+      }
+    },
+    {
+      "id": "BOE-A-2026-19844",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "UNIVERSIDADES",
+      "epigrafe": "Planes de estudios",
+      "titulo": "Resolución de 14 de septiembre de 2026, de la Universidad Autónoma de Madrid, por la que se publica la modificación del plan de estudios de Máster Universitario en Educación para la Justicia Social.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19844",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19844.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19844",
+      "rango": "Resolución",
+      "materias": [
+        "Educación",
+        "Igualdad de oportunidades",
+        "Planes de estudios",
+        "Universidad Autónoma de Madrid"
+      ],
+      "truncated": false,
+      "totalParagraphs": 8,
+      "totalChars": 1183,
+      "analysis": {
+        "relevancia": {
+          "score": 0.79,
+          "confidence": 0.75,
+          "probabilities": {
+            "0": 0.23,
+            "1": 0.75,
+            "2": 0.02,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "educacion",
+            "p": 0.95
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.95,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.03,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.09,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Este Rectorado, ha resuelto publicar la modificación del plan de estudios conducente a la obtención del título oficial de Máster Universitario en Educación para la Justicia Social por la Universidad Autónoma de Madrid (4315817), que quedará estructurado según consta en el anexo de esta resolución.",
+          "p": 0.98,
+          "confidence": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 153,
+        "jev_ms": 89
+      },
+      "usage": {
+        "input_tokens": 2889
+      }
+    },
+    {
+      "id": "BOE-A-2026-19820",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "UNIVERSIDADES",
+      "epigrafe": "Cuerpos docentes universitarios",
+      "titulo": "Resolución de 17 de septiembre de 2026, de la Universidad Autónoma de Madrid, por la que se corrigen errores en la de 29 de julio de 2026, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19820",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19820.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19820",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 3,
+      "totalChars": 664,
+      "analysis": {
+        "relevancia": {
+          "score": 0.76,
+          "confidence": 0.75,
+          "probabilities": {
+            "0": 0.25,
+            "1": 0.75,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "educacion",
+            "p": 0.94
+          },
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.9
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.04,
+          "educacion": 0.94,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.9,
+          "consumo-y-empresas": 0.03,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "En la página 111392 donde dice: «Vocal externo 1.º: Beatriz Romero Herrero, CU, UCM», debe decir: «Vocal externo 1.º: Beatriz Romero Herrero, CU, URJC».",
+          "p": 0.83,
+          "confidence": 0.66
+        },
+        "oposicion": {
+          "nueva": 0.02,
+          "libre": 0.42
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 155,
+        "jev_ms": 125
+      },
+      "usage": {
+        "input_tokens": 2777
+      }
+    },
+    {
+      "id": "BOE-A-2026-19784",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+      "epigrafe": "Cuerpo Superior de Sistemas y Tecnologías de la Información de la Administración del Estado",
+      "titulo": "Resolución de 16 de septiembre de 2026, de la Secretaría de Estado de Función Pública, por la que se modifica la composición del Tribunal calificador del proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, en el Cuerpo Superior de Sistemas y Tecnologías de la Información de la Administración del Estado, convocado por Resolución de 16 de diciembre de 2025.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19784",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19784.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19784",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 4,
+      "totalChars": 881,
+      "analysis": {
+        "relevancia": {
+          "score": 0.73,
+          "confidence": 0.73,
+          "probabilities": {
+            "0": 0.27,
+            "1": 0.73,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.89
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.02,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.02,
+          "educacion": 0.07,
+          "ayudas-y-subvenciones": 0.02,
+          "oposiciones-y-empleo-publico": 0.89,
+          "consumo-y-empresas": 0.03,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p3",
+          "texto": "Don Jesús Manuel Cabello Hidalgo, del Cuerpo Superior de Sistemas y Tecnologías de la Información de la Administración del Estado, sustituye a don Alejandro Marín Lorenzo, del Cuerpo Superior de Sistemas y Tecnologías de la Información de la Administración del Estado.",
+          "p": 0.78,
+          "confidence": 0.67
+        },
+        "oposicion": {
+          "nueva": 0.03,
+          "libre": 0.84
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 947,
+        "jev_ms": 142
+      },
+      "usage": {
+        "input_tokens": 2855
+      }
+    },
+    {
+      "id": "BOE-A-2026-19843",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "UNIVERSIDADES",
+      "epigrafe": "Planes de estudios",
+      "titulo": "Resolución de 1 de septiembre de 2026, de la Universidad Alfonso X el Sabio, por la que se publica la modificación del plan de estudios de Máster Universitario en Inteligencia Artificial.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19843",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19843.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19843",
+      "rango": "Resolución",
+      "materias": [
+        "Inteligencia artificial",
+        "Planes de estudios",
+        "Universidad Alfonso X el Sabio"
+      ],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 531,
+      "analysis": {
+        "relevancia": {
+          "score": 0.72,
+          "confidence": 0.68,
+          "probabilities": {
+            "0": 0.3,
+            "1": 0.68,
+            "2": 0.02,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "educacion",
+            "p": 0.94
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.94,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.03,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.02,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Este Rectorado ha resuelto publicar la modificación del plan de estudios del título de Máster Universitario en Inteligencia Artificial por la Universidad Alfonso X el Sabio.",
+          "p": 1,
+          "confidence": 1
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 144,
+        "jev_ms": 103
+      },
+      "usage": {
+        "input_tokens": 2660
+      }
+    },
+    {
+      "id": "BOE-A-2026-19842",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "UNIVERSIDADES",
+      "epigrafe": "Planes de estudios",
+      "titulo": "Resolución de 1 de septiembre de 2026, de la Universidad Alfonso X el Sabio, por la que se publica la modificación del plan de estudios de Máster Universitario en Enseñanza de Español como Lengua Extranjera.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19842",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19842.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19842",
+      "rango": "Resolución",
+      "materias": [
+        "Enseñanza de Idiomas",
+        "Filología Hispánica",
+        "Planes de estudios",
+        "Universidad Alfonso X el Sabio"
+      ],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 559,
+      "analysis": {
+        "relevancia": {
+          "score": 0.7,
+          "confidence": 0.68,
+          "probabilities": {
+            "0": 0.31,
+            "1": 0.68,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "educacion",
+            "p": 0.94
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.02,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.94,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.03,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.02,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Este Rectorado ha resuelto publicar la modificación del plan de estudios del título de Máster Universitario en Enseñanza de Español como Lengua Extranjera por la Universidad Alfonso X el Sabio.",
+          "p": 1,
+          "confidence": 1
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 153,
+        "jev_ms": 109
+      },
+      "usage": {
+        "input_tokens": 2685
+      }
+    },
+    {
+      "id": "BOE-A-2026-19787",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+      "epigrafe": "Procedimientos de libre designación",
+      "titulo": "Resolución de 17 de septiembre de 2026, de la Subsecretaría, por la que se convoca la provisión de puesto de trabajo por el sistema de libre designación.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19787",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19787.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19787",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 20,
+      "totalChars": 3920,
+      "analysis": {
+        "relevancia": {
+          "score": 0.68,
+          "confidence": 0.66,
+          "probabilities": {
+            "0": 0.33,
+            "1": 0.66,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.04,
+          "educacion": 0.11,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.07,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Esta Subsecretaría acuerda anunciar la provisión, por el procedimiento de libre designación, del puesto de trabajo que se relaciona en el anexo I de la presente resolución, y que figura en la relación de puestos de trabajo del Departamento.",
+          "p": 0.75,
+          "confidence": 0.71
+        },
+        "oposicion": {
+          "nueva": 0.92,
+          "libre": 0.06
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 1273,
+        "jev_ms": 87
+      },
+      "usage": {
+        "input_tokens": 3947
+      }
+    },
+    {
+      "id": "BOE-A-2026-19835",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+      "epigrafe": "Encomienda de gestión",
+      "titulo": "Resolución de 16 de septiembre de 2026, de la Confederación Hidrográfica del Júcar, O.A., por la que se publica la Adenda de modificación del Convenio de encomienda de gestión con la Junta Central de Regantes de la Mancha Oriental, para la entrega de las futuras obras relativas a los proyectos constructivos de infraestructuras de terminación de la segunda fase de la sustitución de bombeos de la Mancha Oriental, para su mantenimiento, conservación y explotación.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19835",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19835.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19835",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": true,
+      "totalParagraphs": 2095,
+      "totalChars": 103469,
+      "analysis": {
+        "relevancia": {
+          "score": 0.67,
+          "confidence": 0.65,
+          "probabilities": {
+            "0": 0.34,
+            "1": 0.65,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "medio-ambiente-y-energia",
+            "p": 0.87
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.08,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.02,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.15,
+          "transporte-y-trafico": 0.04,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.05,
+          "medio-ambiente-y-energia": 0.87
+        },
+        "extracto": {
+          "id": "p28",
+          "texto": "Con la formalización de esta Primera adenda modificativa se consideran entregadas para su gestión, explotación, mantenimiento y conservación a la JCRMO las siguientes obras:",
+          "p": 0.59,
+          "confidence": 0.57
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 467,
+        "jev_ms": 242
+      },
+      "usage": {
+        "input_tokens": 12860
+      }
+    },
+    {
+      "id": "BOE-A-2026-19782",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+      "epigrafe": "Procedimientos de libre designación",
+      "titulo": "Resolución de 18 de septiembre de 2026, de la Subsecretaría, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19782",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19782.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19782",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 17,
+      "totalChars": 3073,
+      "analysis": {
+        "relevancia": {
+          "score": 0.63,
+          "confidence": 0.62,
+          "probabilities": {
+            "0": 0.38,
+            "1": 0.62,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.06,
+          "sanidad": 0.05,
+          "educacion": 0.07,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.07,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.05,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p5",
+          "texto": "Los puestos de trabajo que se convocan por la presente resolución podrán ser solicitados por el personal funcionario que reúna los requisitos establecidos para el desempeño de los mismos.",
+          "p": 0.67,
+          "confidence": 0.61
+        },
+        "oposicion": {
+          "nueva": 0.9,
+          "libre": 0.04
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 914,
+        "jev_ms": 146
+      },
+      "usage": {
+        "input_tokens": 3632
+      }
+    },
+    {
+      "id": "BOE-A-2026-19827",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE DEFENSA",
+      "epigrafe": "Cuerpo Militar de Sanidad. Especialidades",
+      "titulo": "Orden DEF/993/2026, de 14 de septiembre, por la que se modifica la Orden DEF/2892/2015, de 17 de diciembre, por la que se establecen las especialidades complementarias del Cuerpo Militar de Sanidad.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19827",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19827.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19827",
+      "rango": "Orden",
+      "materias": [
+        "Cuerpo Militar de Sanidad",
+        "Enfermería",
+        "Farmacia",
+        "Formación Sanitaria Especializada",
+        "Fuerzas Armadas",
+        "Homologación de títulos académicos",
+        "Laboratorios",
+        "Medicina",
+        "Odontología",
+        "Psicología",
+        "Sanidad",
+        "Servicios de urgencias",
+        "Veterinaria Militar"
+      ],
+      "truncated": false,
+      "totalParagraphs": 96,
+      "totalChars": 17846,
+      "analysis": {
+        "relevancia": {
+          "score": 0.59,
+          "confidence": 0.58,
+          "probabilities": {
+            "0": 0.42,
+            "1": 0.58,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "sanidad",
+            "p": 0.96
+          },
+          {
+            "id": "educacion",
+            "p": 0.96
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.96,
+          "educacion": 0.96,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.45,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.07,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p10",
+          "texto": "La inclusión de la nueva especialidad complementaria de «Medicina de Urgencias y Emergencias (MUE)», dentro de la especialidad fundamental de Medicina del CMS, responde a la necesidad de contar con personal capacitado para la atención inmediata de la persona enferma o lesionada de cualquier edad, mediante la realización de un diagnóstico diferencial y el inicio o planificación de su tratamiento, antes de su transferencia a otras personas especialistas del nivel asistencial que se requiera. Por su parte, la inclusión de la nueva especialidad complementaria de «Laboratorio Clínico (LCL)», dentro de la especialidad fundamental de Farmacia del CMS, obedece a la creación de la citada especialidad en ciencias de la salud mediante el Real Decreto 101/2025, de 18 de febrero, que surge como fusión de las especialidades de «Análisis Clínicos» y «Bioquímica Clínica». La nueva especialidad asume las mismas competencias, funciones y responde a las mismas necesidades para las Fuerzas Armadas que la extinta especialidad de «Análisis Clínicos». La inclusión de esta especialidad complementaria permitirá a los profesionales del CMS realizar un seguimiento más preciso y directo sobre la efectividad de los tratamientos farmacológicos y otros procedimientos médicos.",
+          "p": 0.73,
+          "confidence": 0.71
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 162,
+        "jev_ms": 129
+      },
+      "usage": {
+        "input_tokens": 9474
+      }
+    },
+    {
+      "id": "BOE-A-2026-19830",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DEL INTERIOR",
+      "epigrafe": "Recursos",
+      "titulo": "Resolución de 12 de agosto de 2026, de la Secretaría General de Instituciones Penitenciarias, por la que se emplaza a las personas interesadas en el recurso contencioso-administrativo 1626/2026, interpuesto ante el Tribunal Superior de Justicia de Madrid, Sala de lo Contencioso-Administrativo, Sección Séptima.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19830",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19830.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19830",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 2,
+      "totalChars": 1272,
+      "analysis": {
+        "relevancia": {
+          "score": 0.59,
+          "confidence": 0.59,
+          "probabilities": {
+            "0": 0.41,
+            "1": 0.59,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.04,
+          "sanidad": 0.03,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.3,
+          "consumo-y-empresas": 0.03,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.23,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p1",
+          "texto": "Conforme a lo ordenado por el Tribunal Superior de Justicia de Madrid, Sala de lo Contencioso-Administrativo, Sección Séptima, en relación con el Procedimiento Ordinario 1626/2026, seguido con ocasión de recurso contencioso-administrativo interpuesto por don Pedro Hernández Cordero y doña Ana León Jiménez, se procede por medio de la presente al cumplimiento del trámite de la notificación de emplazamiento a todas aquellas personas funcionarias interesadas en la Resolución de la Subsecretaría, de 29 de abril de 2026, por la que se desestima el recurso de reposición interpuesto conta la Resolución de la Subsecretaría, de 27 de marzo de 2026 (BOE 7 de abril), por la que se resuelve el concurso general para la provisión de puestos de trabajo en los Servicios Periféricos de la Secretaría General de Instituciones Penitenciarias, disponiendo para ello de un plazo de nueve días, si a su derecho conviniera, desde el día siguiente a la publicación oficial de la presente resolución ante el Órgano Jurisdiccional que lo ordenó.",
+          "p": 1,
+          "confidence": 1
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 155,
+        "jev_ms": 74
+      },
+      "usage": {
+        "input_tokens": 2836
+      }
+    },
+    {
+      "id": "BOE-A-2026-19841",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "COMUNIDAD AUTÓNOMA DEL PRINCIPADO DE ASTURIAS",
+      "epigrafe": "Bienes de interés cultural",
+      "titulo": "Decreto 23/2026, de 23 de marzo, por el que se declara bien de interés cultural la Colección artística de la antigua Caja de Ahorros de Asturias.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19841",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19841.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19841",
+      "rango": "Decreto",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 33,
+      "totalChars": 13620,
+      "analysis": {
+        "relevancia": {
+          "score": 0.56,
+          "confidence": 0.44,
+          "probabilities": {
+            "0": 0.5,
+            "1": 0.44,
+            "2": 0.06,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.02,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.11,
+          "transporte-y-trafico": 0.04,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p20",
+          "texto": "Se procede a declarar bien de interés cultural la Colección artística de la antigua Caja de Ahorros de Asturias, incluyendo los bienes muebles referidos en los anexos I, II, III y IV, que se adjuntan y forman parte del presente decreto.",
+          "p": 0.85,
+          "confidence": 0.83
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 159,
+        "jev_ms": 105
+      },
+      "usage": {
+        "input_tokens": 6599
+      }
+    },
+    {
+      "id": "BOE-A-2026-19832",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+      "epigrafe": "Convenios",
+      "titulo": "Resolución de 27 de julio de 2026, de la Autoridad Portuaria de Baleares, por la que se publica el Convenio con el Consell Insular de Mallorca, en materia de prevención y extinción de incendios, salvamento y protección civil.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19832",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19832.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19832",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": true,
+      "totalParagraphs": 118,
+      "totalChars": 26334,
+      "analysis": {
+        "relevancia": {
+          "score": 0.55,
+          "confidence": 0.52,
+          "probabilities": {
+            "0": 0.46,
+            "1": 0.53,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.07,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.04,
+          "educacion": 0.56,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.04,
+          "consumo-y-empresas": 0.23,
+          "transporte-y-trafico": 0.07,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.04,
+          "medio-ambiente-y-energia": 0.06
+        },
+        "extracto": {
+          "id": "p25",
+          "texto": "a) Intensificar la colaboración técnica entre la APB y el Consell de Mallorca, a través de BdM, con el fin de elevar los niveles de prevención y seguridad en el puerto de Alcúdia.",
+          "p": 0.29,
+          "confidence": 0.27
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 161,
+        "jev_ms": 129
+      },
+      "usage": {
+        "input_tokens": 9442
+      }
+    },
+    {
+      "id": "BOE-A-2026-19833",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+      "epigrafe": "Convenios",
+      "titulo": "Resolución de 1 de septiembre de 2026, de la Presidencia del Consejo Superior de Deportes, por la que se publica el Convenio con la Universidad Internacional de La Rioja, para la realización de prácticas académicas externas de estudiantes de grado y postgrado.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19833",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19833.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19833",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": true,
+      "totalParagraphs": 143,
+      "totalChars": 34483,
+      "analysis": {
+        "relevancia": {
+          "score": 0.4,
+          "confidence": 0.6,
+          "probabilities": {
+            "0": 0.62,
+            "1": 0.36,
+            "2": 0.02,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "educacion",
+            "p": 0.95
+          },
+          {
+            "id": "pensiones-y-seguridad-social",
+            "p": 0.78
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.35,
+          "impuestos-y-hacienda": 0.06,
+          "pensiones-y-seguridad-social": 0.78,
+          "sanidad": 0.07,
+          "educacion": 0.95,
+          "ayudas-y-subvenciones": 0.07,
+          "oposiciones-y-empleo-publico": 0.14,
+          "consumo-y-empresas": 0.24,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.2,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p23",
+          "texto": "Por el presente convenio se establece el Programa de Cooperación Educativa entre la Universidad Internacional de La Rioja y el CSD para la realización de prácticas académicas externas, trabajos fin de Grado y trabajos fin de Máster Universitario por parte del alumnado de la Universidad Internacional de La Rioja, de cualquier titulación de Grado o Máster Universitario que imparta la universidad.",
+          "p": 0.84,
+          "confidence": 0.83
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 157,
+        "jev_ms": 133
+      },
+      "usage": {
+        "input_tokens": 8930
+      }
+    },
+    {
+      "id": "BOE-A-2026-19838",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "epigrafe": "Convenios",
+      "titulo": "Resolución de 17 de septiembre de 2026, de la Secretaría General Técnica, por la que se publica el Convenio con la Sociedad Española de Socorros Mutuos y Beneficencia, sobre la prestación de asistencia sanitaria subvencionada a los emigrantes españoles residentes en Chile que carezcan de recursos suficientes.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19838",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19838.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19838",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": true,
+      "totalParagraphs": 91,
+      "totalChars": 22469,
+      "analysis": {
+        "relevancia": {
+          "score": 0.38,
+          "confidence": 0.62,
+          "probabilities": {
+            "0": 0.64,
+            "1": 0.33,
+            "2": 0.03,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "sanidad",
+            "p": 0.98
+          },
+          {
+            "id": "extranjeria",
+            "p": 0.81
+          },
+          {
+            "id": "ayudas-y-subvenciones",
+            "p": 0.76
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.06,
+          "pensiones-y-seguridad-social": 0.39,
+          "sanidad": 0.98,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.76,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.35,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.81,
+          "justicia-y-derechos": 0.23,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p1",
+          "texto": "Con fecha 14 de septiembre de 2026 se ha suscrito el Convenio entre el Ministerio de Inclusión, Seguridad Social y Migraciones (Dirección General de la Ciudadanía Española en el Exterior y Políticas de Retorno) y la Sociedad Española De Socorros Mutuos Y Beneficencia, sobre la prestación de asistencia sanitaria subvencionada a los emigrantes españoles residentes en Chile que carezcan de recursos suficientes, en cumplimiento de lo dispuesto en el artículo 48.8 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, procede la publicación en el «Boletín Oficial del Estado» del citado convenio.",
+          "p": 0.3,
+          "confidence": 0.28
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 162,
+        "jev_ms": 145
+      },
+      "usage": {
+        "input_tokens": 9481
+      }
+    },
+    {
+      "id": "BOE-A-2026-19831",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+      "epigrafe": "Comunidad Autónoma de Cataluña. Convenio",
+      "titulo": "Resolución de 30 de julio de 2026, de la Autoridad Portuaria de Tarragona, por la que se publica la Adenda de modificación del Convenio con la Universidad Rovira i Virgili, para el desarrollo de un proyecto de investigación para un doctorado industrial relativo al «Análisis de los riesgos en las operaciones portuarias y coordinación de su cobertura aseguradora. Sistematización y propuestas de eficiencia y mejora».",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19831",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19831.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19831",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 35,
+      "totalChars": 9092,
+      "analysis": {
+        "relevancia": {
+          "score": 0.07,
+          "confidence": 0.93,
+          "probabilities": {
+            "0": 0.93,
+            "1": 0.07,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "educacion",
+            "p": 0.89
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.51,
+          "impuestos-y-hacienda": 0.04,
+          "pensiones-y-seguridad-social": 0.13,
+          "sanidad": 0.04,
+          "educacion": 0.89,
+          "ayudas-y-subvenciones": 0.07,
+          "oposiciones-y-empleo-publico": 0.16,
+          "consumo-y-empresas": 0.26,
+          "transporte-y-trafico": 0.07,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.04,
+          "medio-ambiente-y-energia": 0.04
+        },
+        "extracto": {
+          "id": "p15",
+          "texto": "II. Que, con posterioridad a la firma y entrada en eficacia del convenio, la Comisión Técnica de Seguimiento ha efectuado en fecha 19 de diciembre de 2025 la correspondiente propuesta de modificación del convenio, al haber detectado la necesidad de modificación del mismo por razón de dos cuestiones que no fueron advertidas adecuadamente en la redacción original del convenio y que se evidenciaron en el transcurso de los seis primeros meses de ejecución, relativas a la necesidad de regular las condiciones de realización por parte del doctorando o la doctoranda de tareas docentes, así como la necesidad de actualización del importe retributivo del doctorando o la doctoranda para incorporar en el importe señalado en el convenio, el importe mensual bruto de 167,88 euros correspondientes a un plus del Acuerdo Local de Empresa; lo que mejor permitiría atender el desarrollo del proyecto de investigación, mejor dar cumplimiento a la voluntad manifestada en la Memoria Justificativa del convenio de fecha 10 de octubre de 2024, y mejor armonizarse con las determinaciones de las bases reguladoras de las ayudas a doctorados industriales aprobadas por la AGAUR por Resolución REU/421/2024, de 12 de febrero, y con el estatuto legal del personal investigador predoctoral en formación, regulado en el Real Decreto 103/2019, de 1 de marzo.",
+          "p": 0.69,
+          "confidence": 0.66
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 153,
+        "jev_ms": 119
+      },
+      "usage": {
+        "input_tokens": 5746
+      }
+    },
+    {
+      "id": "BOE-A-2026-19837",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+      "epigrafe": "Convenios",
+      "titulo": "Resolución de 16 de septiembre de 2026, del Centro de Investigaciones Energéticas Medioambientales y Tecnológicas, O.A., M.P., por la que se publica el Convenio con la Empresa Nacional de Residuos Radiactivos, SA, S.M.E., para el proyecto de I+D sobre termo-hidro-mecánica y geoquímica de materiales de confinamiento en almacenamientos de residuos radiactivos (Cambar III).",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19837",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19837.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19837",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": true,
+      "totalParagraphs": 142,
+      "totalChars": 33531,
+      "analysis": {
+        "relevancia": {
+          "score": 0.04,
+          "confidence": 0.96,
+          "probabilities": {
+            "0": 0.96,
+            "1": 0.04,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.04,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.04,
+          "consumo-y-empresas": 0.11,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.26,
+          "medio-ambiente-y-energia": 0.57
+        },
+        "extracto": {
+          "id": "p24",
+          "texto": "El objeto del presente convenio es establecer los términos y condiciones en que CIEMAT y Enresa desarrollarán el programa de investigación bajo el título «Caracterización termo-hidro-mecánica y geoquímica de materiales de confinamiento empleados en almacenamientos de residuos radiactivos».",
+          "p": 0.41,
+          "confidence": 0.39
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 302,
+        "jev_ms": 140
+      },
+      "usage": {
+        "input_tokens": 9574
+      }
+    },
+    {
+      "id": "BOE-A-2026-19826",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+      "epigrafe": "Convenios",
+      "titulo": "Resolución de 17 de septiembre de 2026, de la Secretaría General Técnica, por la que se publica el Convenio entre la Embajada de España en Costa Rica y Grupo Proval, SA, para la celebración de la Fiesta Nacional de España.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19826",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19826.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19826",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 80,
+      "totalChars": 14537,
+      "analysis": {
+        "relevancia": {
+          "score": 0.01,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.11,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.02,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.06,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.35,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.35,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p22",
+          "texto": "El presente convenio tiene por objeto regular las condiciones de la participación de Grupo Proval, SA, en la celebración de la Fiesta Nacional de España que está previsto que tenga lugar en San José, Costa Rica el próximo 9 de octubre de 2026.",
+          "p": 0.65,
+          "confidence": 0.63
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 164,
+        "jev_ms": 103
+      },
+      "usage": {
+        "input_tokens": 7980
+      }
+    },
+    {
+      "id": "BOE-A-2026-19836",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+      "epigrafe": "Convenios",
+      "titulo": "Resolución de 11 de septiembre de 2026, de la Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P., por la que se publica el Convenio con la Fundación Barcelona Zoo, para colaborar en el proyecto de conservación de los hábitats Sahelo-Saharianos.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19836",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19836.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19836",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": true,
+      "totalParagraphs": 132,
+      "totalChars": 30221,
+      "analysis": {
+        "relevancia": {
+          "score": 0.01,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.99,
+            "1": 0.01,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.07,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.08,
+          "ayudas-y-subvenciones": 0.07,
+          "oposiciones-y-empleo-publico": 0.04,
+          "consumo-y-empresas": 0.11,
+          "transporte-y-trafico": 0.04,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.3,
+          "medio-ambiente-y-energia": 0.42
+        },
+        "extracto": {
+          "id": "p19",
+          "texto": "VIII. Que ambas partes están interesadas en formalizar un convenio mediante el cual la Fundación Barcelona Zoo y el CSIC, a través de la EEZA, en atención a la coincidencia de sus fines fundacionales en materia de conservación de la biodiversidad, educación ambiental, investigación científica y sensibilización social, puedan colaborar en un proyecto de conservación de los hábitats Sahelo-Saharianos, con una ayuda de 45.000 euros por parte de la Fundació al CSIC-EEZA a tal efecto.",
+          "p": 0.49,
+          "confidence": 0.47
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 301,
+        "jev_ms": 122
+      },
+      "usage": {
+        "input_tokens": 9694
+      }
+    },
+    {
+      "id": "BOE-A-2026-19823",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+      "epigrafe": "Convenios",
+      "titulo": "Resolución de 17 de septiembre de 2026, de la Secretaría General Técnica, por la que se publica el Convenio entre la Embajada de España en Ecuador e Indra Sistemas, SA, para la celebración de la Fiesta Nacional de España.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19823",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19823.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19823",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 79,
+      "totalChars": 14264,
+      "analysis": {
+        "relevancia": {
+          "score": 0,
+          "confidence": 1,
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.09,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.02,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.06,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.29,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.38,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p21",
+          "texto": "El presente convenio tiene por objeto regular las condiciones de la participación de Indra, en la celebración de la Fiesta Nacional de España que está previsto que tenga lugar en Quito, Ecuador el próximo 12 de octubre de 2026.",
+          "p": 0.64,
+          "confidence": 0.62
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 296,
+        "jev_ms": 141
+      },
+      "usage": {
+        "input_tokens": 7874
+      }
+    },
+    {
+      "id": "BOE-A-2026-19824",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+      "epigrafe": "Convenios",
+      "titulo": "Resolución de 17 de septiembre de 2026, de la Secretaría General Técnica, por la que se publica el Convenio entre la Embajada de España en Egipto y CaixaBank, SA, para la celebración de la Fiesta Nacional de España.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19824",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19824.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19824",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 79,
+      "totalChars": 14167,
+      "analysis": {
+        "relevancia": {
+          "score": 0,
+          "confidence": 1,
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.1,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.02,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.06,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.37,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.32,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p21",
+          "texto": "El presente convenio tiene por objeto regular las condiciones de la participación de Caixa, en la celebración de la Fiesta Nacional de España que está previsto que tenga lugar en El Cairo, Egipto el próximo 12 de octubre de 2026.",
+          "p": 0.7,
+          "confidence": 0.69
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 158,
+        "jev_ms": 113
+      },
+      "usage": {
+        "input_tokens": 7866
+      }
+    },
+    {
+      "id": "BOE-A-2026-19825",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+      "epigrafe": "Convenios",
+      "titulo": "Resolución de 17 de septiembre de 2026, de la Secretaría General Técnica, por la que se publica el Convenio entre la Embajada de España en México y BBVA México, SA, Institución de Banca Múltiple, Grupo Financiero BBVA México, para la celebración de la Fiesta Nacional de España.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19825",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19825.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19825",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 79,
+      "totalChars": 14811,
+      "analysis": {
+        "relevancia": {
+          "score": 0,
+          "confidence": 1,
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.1,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.3,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.31,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p21",
+          "texto": "El presente convenio tiene por objeto regular las condiciones de la participación de BBVA México, en la celebración de la Fiesta Nacional de España que está previsto que tenga lugar en Ciudad de México, México el próximo 9 de octubre de 2026.",
+          "p": 0.58,
+          "confidence": 0.56
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 154,
+        "jev_ms": 128
+      },
+      "usage": {
+        "input_tokens": 8041
+      }
+    }
+  ]
+}
