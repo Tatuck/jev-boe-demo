@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T12:39:16.280Z",
+  "generated_at": "2026-10-24T12:02:22.848Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -370,6 +370,16 @@
       "jev_ms_sum": 15460,
       "jev_ms_avg": 125,
       "input_tokens": 511285
+    },
+    {
+      "date": "2026-10-24",
+      "boe_numero": "264",
+      "items": 61,
+      "relevantes": 0,
+      "wall_ms": 6812,
+      "jev_ms_sum": 6802,
+      "jev_ms_avg": 112,
+      "input_tokens": 310817
     }
   ]
 }
