@@ -1,0 +1,4611 @@
+{
+  "date": "2026-11-12",
+  "boe_numero": "282",
+  "model": "jev-1.14.0",
+  "generated_at": "2026-11-12T15:59:47.069Z",
+  "stats": {
+    "items": 70,
+    "analyzed": 70,
+    "failed": 0,
+    "relevantes": 1,
+    "wall_ms": 5529,
+    "jev_ms_sum": 7314,
+    "jev_ms_avg": 104,
+    "jev_ms_max": 341,
+    "jev_ms_min": 66,
+    "fetch_ms_sum": 16464,
+    "input_tokens": 317035,
+    "concurrency": 6
+  },
+  "items": [
+    {
+      "id": "BOE-A-2026-23737",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+      "epigrafe": "Impacto ambiental",
+      "titulo": "Resolución de 3 de noviembre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula la declaración ambiental estratégica del «Plan de desarrollo de la red de transporte de energía eléctrica 2025-2030».",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23737",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23737.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23737",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": true,
+      "totalParagraphs": 408,
+      "totalChars": 147076,
+      "analysis": {
+        "relevancia": {
+          "score": 2.11,
+          "confidence": 0.12,
+          "probabilities": {
+            "0": 0.04,
+            "1": 0.22,
+            "2": 0.32,
+            "3": 0.42
+          }
+        },
+        "categorias": [
+          {
+            "id": "medio-ambiente-y-energia",
+            "p": 0.83
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.02,
+          "consumo-y-empresas": 0.14,
+          "transporte-y-trafico": 0.07,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.05,
+          "medio-ambiente-y-energia": 0.83
+        },
+        "extracto": {
+          "id": "p10",
+          "texto": "Este nuevo Plan establecerá las infraestructuras de transporte de electricidad que serán necesarias con el horizonte 2030 de acuerdo con los principios rectores establecidos en la citada orden, identificando las necesidades de ampliación, refuerzo, modernización y adaptación de la red de transporte de energía eléctrica, con el fin de garantizar la seguridad y calidad del suministro, facilitar la integración de las energías renovables, contribuir al cumplimiento de los objetivos de descarbonización y atender las necesidades derivadas de la evolución prevista de la demanda eléctrica, todo ello desde una perspectiva de sostenibilidad ambiental, social y económica.",
+          "p": 0.55,
+          "confidence": 0.54
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 437,
+        "jev_ms": 110
+      },
+      "usage": {
+        "input_tokens": 9016
+      }
+    },
+    {
+      "id": "BOE-A-2026-23746",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "BANCO DE ESPAÑA",
+      "epigrafe": "Préstamos hipotecarios. Índices",
+      "titulo": "Resolución de 3 de noviembre de 2026, del Banco de España, por la que se publican los índices y tipos de referencia aplicables para el cálculo del valor de mercado en la compensación por riesgo de tipo de interés de los préstamos hipotecarios, así como para el cálculo del diferencial que se ha de aplicar para la obtención del valor de mercado de los préstamos o créditos que se cancelan anticipadamente.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23746",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23746.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23746",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 7,
+      "totalChars": 635,
+      "analysis": {
+        "relevancia": {
+          "score": 1.65,
+          "confidence": 0.34,
+          "probabilities": {
+            "0": 0.08,
+            "1": 0.35,
+            "2": 0.42,
+            "3": 0.15
+          }
+        },
+        "categorias": [
+          {
+            "id": "vivienda",
+            "p": 0.88
+          },
+          {
+            "id": "consumo-y-empresas",
+            "p": 0.88
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.88,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.04,
+          "pensiones-y-seguridad-social": 0.01,
+          "sanidad": 0.01,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.01,
+          "consumo-y-empresas": 0.88,
+          "transporte-y-trafico": 0.01,
+          "extranjeria": 0.01,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p3",
+          "texto": "A) Tipos de referencia aplicables para el cálculo del valor de mercado en la compensación por riesgo de tipos de interés de los préstamos hipotecarios.",
+          "p": 0.84,
+          "confidence": 0.76
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 1114,
+        "jev_ms": 91
+      },
+      "usage": {
+        "input_tokens": 2753
+      }
+    },
+    {
+      "id": "BOE-A-2026-23666",
+      "seccion": "1",
+      "seccionNombre": "I. Disposiciones generales",
+      "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+      "epigrafe": "Subvenciones",
+      "titulo": "Real Decreto 984/2026, de 11 de noviembre, por el que se regula la concesión directa de una subvención a la Comunidad Autónoma de las Illes Balears y otra a la Comunidad Autónoma de Canarias para financiar inversiones en actuaciones relativas al ciclo integral del agua.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23666",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23666.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23666",
+      "rango": "Real Decreto",
+      "materias": [
+        "Aprovechamiento de aguas",
+        "Ayudas",
+        "Baleares",
+        "Canarias",
+        "Secretaría de Estado de Medio Ambiente",
+        "Subvenciones"
+      ],
+      "truncated": true,
+      "totalParagraphs": 142,
+      "totalChars": 39737,
+      "analysis": {
+        "relevancia": {
+          "score": 1.45,
+          "confidence": 0.44,
+          "probabilities": {
+            "0": 0.18,
+            "1": 0.2,
+            "2": 0.62,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "medio-ambiente-y-energia",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.05,
+          "empleo-y-trabajo": 0.05,
+          "impuestos-y-hacienda": 0.16,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.06,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.36,
+          "oposiciones-y-empleo-publico": 0.05,
+          "consumo-y-empresas": 0.47,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.04,
+          "medio-ambiente-y-energia": 0.99
+        },
+        "extracto": {
+          "id": "p7",
+          "texto": "Por todo ello, el Estado tiene interés en colaborar, a través del Ministerio para la Transición Ecológica y el Reto Demográfico, con las Comunidades Autónomas de las Illes Balears y Canarias para que puedan acometer inversiones en actuaciones relativas al ciclo integral del agua que permitirán una utilización más racional y eficiente de los recursos hídricos, protegiendo el medio ambiente y evitando una sobreexplotación de los mismos, y contribuirán a la mejora de la calidad de vida de las poblaciones balear y canaria, mediante la concesión directa de dos subvenciones, una de ellas a la Comunidad Autónoma de las Illes Balears y la otra a la Comunidad Autónoma de Canarias. Las subvenciones contempladas en este real decreto son coherentes con la planificación hidrológica aprobada por el Gobierno.",
+          "p": 0.64,
+          "confidence": 0.63
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 767,
+        "jev_ms": 138
+      },
+      "usage": {
+        "input_tokens": 9235
+      }
+    },
+    {
+      "id": "BOE-A-2026-23745",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "BANCO DE ESPAÑA",
+      "epigrafe": "Mercado de divisas",
+      "titulo": "Resolución de 11 de noviembre de 2026, del Banco de España, por la que se publican los cambios del euro correspondientes al día 11 de noviembre de 2026, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23745",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23745.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23745",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 1,
+      "totalChars": 117,
+      "analysis": {
+        "relevancia": {
+          "score": 1.08,
+          "confidence": 0,
+          "probabilities": {
+            "0": 0.56,
+            "1": 0.07,
+            "2": 0.1,
+            "3": 0.27
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.02,
+          "oposiciones-y-empleo-publico": 0.02,
+          "consumo-y-empresas": 0.52,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.02,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": null
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 96,
+        "jev_ms": 75
+      },
+      "usage": {
+        "input_tokens": 2425
+      }
+    },
+    {
+      "id": "BOE-A-2026-23667",
+      "seccion": "1",
+      "seccionNombre": "I. Disposiciones generales",
+      "departamento": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+      "epigrafe": "Organización",
+      "titulo": "Real Decreto 985/2026, de 11 de noviembre, por el que se regula la Cámara Oficial de Comercio, Industria, Servicios y Navegación de Melilla.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23667",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23667.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23667",
+      "rango": "Real Decreto",
+      "materias": [
+        "Cámaras Oficiales de Comercio Industria y Navegación",
+        "Melilla"
+      ],
+      "truncated": true,
+      "totalParagraphs": 218,
+      "totalChars": 52076,
+      "analysis": {
+        "relevancia": {
+          "score": 1.06,
+          "confidence": 0.88,
+          "probabilities": {
+            "0": 0.03,
+            "1": 0.88,
+            "2": 0.09,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "consumo-y-empresas",
+            "p": 0.82
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.05,
+          "impuestos-y-hacienda": 0.1,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.12,
+          "oposiciones-y-empleo-publico": 0.06,
+          "consumo-y-empresas": 0.82,
+          "transporte-y-trafico": 0.04,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.22,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p28",
+          "texto": "En atención a todo lo expuesto, mediante este real decreto se procede a la regulación de la Cámara Oficial de Comercio, Industria, Servicios y Navegación de Melilla, recogiéndose en él, entre otras, las disposiciones relativas a su denominación, naturaleza, fines, funciones, ámbito territorial de actuación, organización y funcionamiento, régimen económico, así como las necesarias normas que regirán, transitoriamente, la vida de la Cámara hasta la constitución de los órganos de gobierno que resulten del proceso electoral en marcha para todas las cámaras, abierto por Orden ECM/1382/2025, de 28 de noviembre, por la que se declara abierto el proceso electoral para la renovación de los Plenos de las Cámaras Oficiales de Comercio, Industria, Servicios y Navegación el 1 de diciembre de 2025 y que finalizará el 31 de diciembre de 2027 y la posterior aprobación de su Reglamento de Régimen Interior.",
+          "p": 0.55,
+          "confidence": 0.54
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 745,
+        "jev_ms": 105
+      },
+      "usage": {
+        "input_tokens": 8601
+      }
+    },
+    {
+      "id": "BOE-A-2026-23711",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 6 de noviembre de 2026, de la Diputación Provincial de Badajoz, referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23711",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23711.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23711",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 7,
+      "totalChars": 1189,
+      "analysis": {
+        "relevancia": {
+          "score": 1.02,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0,
+            "1": 0.98,
+            "2": 0.02,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.12,
+          "sanidad": 0.07,
+          "educacion": 0.05,
+          "ayudas-y-subvenciones": 0.06,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.08,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.14,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Once plazas de Técnico/a Gestión Administrativa, pertenecientes a la escala de Administración General, subescala Gestión, por el sistema de concurso-oposición, en turno libre.",
+          "p": 0.59,
+          "confidence": 0.52
+        },
+        "oposicion": {
+          "nueva": 0.84,
+          "libre": 0.92
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 107,
+        "jev_ms": 72
+      },
+      "usage": {
+        "input_tokens": 2944
+      }
+    },
+    {
+      "id": "BOE-A-2026-23694",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "MINISTERIO DE SANIDAD",
+      "epigrafe": "Personal estatutario de los servicios de salud",
+      "titulo": "Resolución de 30 de octubre de 2026, del Instituto Nacional de Gestión Sanitaria, por la que se convoca proceso selectivo por concurso oposición, por el sistema general de acceso libre, para acceso a la condición de personal estatutario fijo en plazas de la categoría de Titulado/a Superior Función Administrativa Administración Sanitaria.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23694",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23694.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23694",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": true,
+      "totalParagraphs": 408,
+      "totalChars": 104474,
+      "analysis": {
+        "relevancia": {
+          "score": 1.01,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0,
+            "1": 0.98,
+            "2": 0.02,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          },
+          {
+            "id": "sanidad",
+            "p": 0.91
+          },
+          {
+            "id": "extranjeria",
+            "p": 0.77
+          },
+          {
+            "id": "impuestos-y-hacienda",
+            "p": 0.76
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.06,
+          "impuestos-y-hacienda": 0.76,
+          "pensiones-y-seguridad-social": 0.22,
+          "sanidad": 0.91,
+          "educacion": 0.43,
+          "ayudas-y-subvenciones": 0.18,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.07,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.77,
+          "justicia-y-derechos": 0.37,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p1",
+          "texto": "Con el fin de atender las necesidades de personal de la Administración Pública y, en cumplimiento de lo dispuesto en el Real Decreto 387/2026, de 6 de mayo, por el que se aprueba la oferta de empleo público correspondiente al ejercicio 2026, esta Dirección en uso de las competencias que le están atribuidas en el artículo 5.1 del Real Decreto 118/2023, de 21 de febrero, por el que se regula la organización y funcionamiento del Instituto Nacional de Gestión Sanitaria (INGESA), previo informe favorable de la Dirección General de la Función Pública y negociación en Mesa Sectorial, acuerda convocar el proceso selectivo para el ingreso por el sistema general de acceso libre para acceder a la condición de personal estatutario fijo en plazas de la categoría de Titulado/a Superior Función Administrativa Administración Sanitaria de las Instituciones Sanitarias del Instituto Nacional de Gestión Sanitaria.",
+          "p": 0.77,
+          "confidence": 0.77
+        },
+        "oposicion": {
+          "nueva": 0.98,
+          "libre": 0.98
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 330,
+        "jev_ms": 131
+      },
+      "usage": {
+        "input_tokens": 9024
+      }
+    },
+    {
+      "id": "BOE-A-2026-23699",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 2 de noviembre de 2026, del Ayuntamiento de Donostia/San Sebastián (Gipuzkoa), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23699",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23699.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23699",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 988,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.98,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.04,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.02,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.06,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.06,
+          "transporte-y-trafico": 0.07,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.09,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Dos plazas de Agente de Guardia Municipal, pertenecientes a la escala de Administración Especial, subescala Servicios especiales y clase Policía Local y sus auxiliares, por el sistema de concurso, en turno libre/estabilización.",
+          "p": 0.82,
+          "confidence": 0.78
+        },
+        "oposicion": {
+          "nueva": 0.78,
+          "libre": 0.93
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 108,
+        "jev_ms": 84
+      },
+      "usage": {
+        "input_tokens": 2871
+      }
+    },
+    {
+      "id": "BOE-A-2026-23701",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 5 de noviembre de 2026, del Ayuntamiento de Bétera (Valencia/València), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23701",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23701.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23701",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 751,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Dos plazas de Conserje/Ordenanza, pertenecientes a la escala de Administración General, subescala Subalterna y clase Personal de oficios, por el sistema de oposición, en turno libre.",
+          "p": 0.77,
+          "confidence": 0.69
+        },
+        "oposicion": {
+          "nueva": 0.91,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 115,
+        "jev_ms": 88
+      },
+      "usage": {
+        "input_tokens": 2771
+      }
+    },
+    {
+      "id": "BOE-A-2026-23702",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 5 de noviembre de 2026, del Ayuntamiento de Cigales (Valladolid), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23702",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23702.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23702",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 695,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.06,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.07,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.04,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Tres plazas de Peón/a de Servicios Múltiples de la plantilla de personal laboral fijo, por el sistema de concurso-oposición, en turno libre.",
+          "p": 0.91,
+          "confidence": 0.88
+        },
+        "oposicion": {
+          "nueva": 0.96,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 108,
+        "jev_ms": 101
+      },
+      "usage": {
+        "input_tokens": 2753
+      }
+    },
+    {
+      "id": "BOE-A-2026-23704",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 5 de noviembre de 2026, del Ayuntamiento de Massalfassar (Valencia/València), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23704",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23704.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23704",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 733,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.06,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Dos plazas de Administrativo/a, pertenecientes a la escala de Administración General, subescala Administrativa, por el sistema de concurso-oposición, en turno libre.",
+          "p": 0.85,
+          "confidence": 0.8
+        },
+        "oposicion": {
+          "nueva": 0.97,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 109,
+        "jev_ms": 136
+      },
+      "usage": {
+        "input_tokens": 2763
+      }
+    },
+    {
+      "id": "BOE-A-2026-23707",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 6 de noviembre de 2026, del Consejo Insular de Formentera (Illes Balears), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23707",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23707.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23707",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 676,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.04,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.12,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.04,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Tres plazas de Cocinero/a de la plantilla de personal laboral fijo, por el sistema de concurso-oposición, en turno libre.",
+          "p": 0.9,
+          "confidence": 0.87
+        },
+        "oposicion": {
+          "nueva": 0.97,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 1166,
+        "jev_ms": 76
+      },
+      "usage": {
+        "input_tokens": 2751
+      }
+    },
+    {
+      "id": "BOE-A-2026-23709",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 6 de noviembre de 2026, del Ayuntamiento de Peligros (Granada), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23709",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23709.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23709",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 883,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.03,
+          "educacion": 0.05,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.06,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.04,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Dos plazas de Auxiliar de Administración General, pertenecientes a la escala de Administración General, subescala Auxiliar, por el sistema de oposición, en turno libre.",
+          "p": 0.82,
+          "confidence": 0.77
+        },
+        "oposicion": {
+          "nueva": 0.85,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 1130,
+        "jev_ms": 77
+      },
+      "usage": {
+        "input_tokens": 2827
+      }
+    },
+    {
+      "id": "BOE-A-2026-23712",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 6 de noviembre de 2026, de la Diputación Provincial de Badajoz, referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23712",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23712.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23712",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 7,
+      "totalChars": 1192,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0,
+            "1": 0.99,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.05,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.1,
+          "sanidad": 0.08,
+          "educacion": 0.05,
+          "ayudas-y-subvenciones": 0.06,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.08,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.14,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Cuatro plazas de Arquitecto/a Técnico, pertenecientes a la escala de Administración Especial, subescala Técnica y clase Media, por el sistema de concurso-oposición, en turno libre.",
+          "p": 0.58,
+          "confidence": 0.51
+        },
+        "oposicion": {
+          "nueva": 0.79,
+          "libre": 0.87
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 117,
+        "jev_ms": 87
+      },
+      "usage": {
+        "input_tokens": 2946
+      }
+    },
+    {
+      "id": "BOE-A-2026-23713",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 6 de noviembre de 2026, del Ayuntamiento de Vélez-Málaga (Málaga), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23713",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23713.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23713",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 13,
+      "totalChars": 1824,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          },
+          {
+            "id": "sanidad",
+            "p": 0.66
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.08,
+          "sanidad": 0.66,
+          "educacion": 0.16,
+          "ayudas-y-subvenciones": 0.06,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.06,
+          "transporte-y-trafico": 0.01,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.13,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p11",
+          "texto": "El plazo de presentación de solicitudes será de veinte días hábiles a contar desde el siguiente al de la publicación de esta resolución en el «Boletín Oficial del Estado».",
+          "p": 0.64,
+          "confidence": 0.61
+        },
+        "oposicion": {
+          "nueva": 0.76,
+          "libre": 0.91
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 123,
+        "jev_ms": 111
+      },
+      "usage": {
+        "input_tokens": 3253
+      }
+    },
+    {
+      "id": "BOE-A-2026-23718",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 6 de noviembre de 2026, del Ayuntamiento de Guadarrama (Madrid), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23718",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23718.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23718",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 898,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0,
+            "1": 0.99,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.04,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.02,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.07,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.04,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Diecisiete plazas de Auxiliares Administrativos/as, pertenecientes a la escala de Administración General, subescala Auxiliar y clase Auxiliar, por el sistema de oposición, en turno libre.",
+          "p": 0.82,
+          "confidence": 0.77
+        },
+        "oposicion": {
+          "nueva": 0.79,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 99,
+        "jev_ms": 98
+      },
+      "usage": {
+        "input_tokens": 2833
+      }
+    },
+    {
+      "id": "BOE-A-2026-23721",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 6 de noviembre de 2026, del Ayuntamiento de Candelaria (Santa Cruz de Tenerife), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23721",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23721.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23721",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 4,
+      "totalChars": 885,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.08,
+          "educacion": 0.08,
+          "ayudas-y-subvenciones": 0.06,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.08,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.04,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p3",
+          "texto": "Se abre un nuevo plazo de presentación de instancias, exclusivamente para las plazas o puestos objeto de esta rectificación, de veinte días hábiles a partir del siguiente a la publicación de la presente resolución en el «Boletín Oficial del Estado».",
+          "p": 1,
+          "confidence": 1
+        },
+        "oposicion": {
+          "nueva": 0.17,
+          "libre": 0.61
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 112,
+        "jev_ms": 96
+      },
+      "usage": {
+        "input_tokens": 2813
+      }
+    },
+    {
+      "id": "BOE-A-2026-23749",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "UNIVERSIDADES",
+      "epigrafe": "Planes de estudios",
+      "titulo": "Resolución de 22 de octubre de 2026, de la Universidad Católica de Valencia San Vicente Mártir, por la que se publica el plan de estudios de Graduado o Graduada en Marketing.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23749",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23749.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23749",
+      "rango": "Resolución",
+      "materias": [
+        "Investigación y Técnicas de Mercado",
+        "Planes de estudios",
+        "Universidad Católica de Valencia San Vicente Mártir"
+      ],
+      "truncated": false,
+      "totalParagraphs": 4,
+      "totalChars": 702,
+      "analysis": {
+        "relevancia": {
+          "score": 1,
+          "confidence": 0.79,
+          "probabilities": {
+            "0": 0.11,
+            "1": 0.79,
+            "2": 0.1,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "educacion",
+            "p": 0.96
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.02,
+          "pensiones-y-seguridad-social": 0.01,
+          "sanidad": 0.01,
+          "educacion": 0.96,
+          "ayudas-y-subvenciones": 0.02,
+          "oposiciones-y-empleo-publico": 0.02,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.01,
+          "extranjeria": 0.01,
+          "justicia-y-derechos": 0.02,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Este Rectorado ha resuelto publicar el plan de estudios conducente a la obtención del título de Graduado o Graduada en Marketing por la Universidad Católica de Valencia San Vicente Mártir.",
+          "p": 1,
+          "confidence": 1
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 99,
+        "jev_ms": 86
+      },
+      "usage": {
+        "input_tokens": 2700
+      }
+    },
+    {
+      "id": "BOE-A-2026-23691",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "MINISTERIO DE HACIENDA",
+      "epigrafe": "Personal laboral",
+      "titulo": "Resolución de 4 de noviembre de 2026, de la Presidencia de la Autoridad Independiente de Responsabilidad Fiscal, AAI, por la que se convoca proceso selectivo para la provisión de plaza de personal laboral fijo, fuera de convenio, con la categoría de Titulado Superior.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23691",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23691.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23691",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": true,
+      "totalParagraphs": 187,
+      "totalChars": 35269,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          },
+          {
+            "id": "extranjeria",
+            "p": 0.73
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.05,
+          "pensiones-y-seguridad-social": 0.12,
+          "sanidad": 0.06,
+          "educacion": 0.34,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.73,
+          "justicia-y-derechos": 0.19,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p5",
+          "texto": "1.1 Se convoca proceso selectivo para cubrir una (1) plaza de personal laboral fijo, fuera de convenio, en la categoría de Titulado Superior.",
+          "p": 0.63,
+          "confidence": 0.62
+        },
+        "oposicion": {
+          "nueva": 0.98,
+          "libre": 0.94
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 115,
+        "jev_ms": 114
+      },
+      "usage": {
+        "input_tokens": 9328
+      }
+    },
+    {
+      "id": "BOE-A-2026-23693",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "MINISTERIO DE CULTURA",
+      "epigrafe": "Personal laboral",
+      "titulo": "Resolución de 5 de noviembre de 2026, de la Subsecretaría, por la que se aprueba la relación definitiva de personas admitidas y excluidas del proceso selectivo para la provisión de plazas de personal laboral fijo, fuera de convenio, de Profesor Tutti (violín, viola y fagot-contrafagot) de la Orquesta Nacional de España, y la elaboración de relaciones de candidatos, dependiente del Instituto Nacional de las Artes Escénicas y de la Música, convocado por Resolución de 24 de junio de 2026.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23693",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23693.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23693",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 20,
+      "totalChars": 3774,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.17,
+          "pensiones-y-seguridad-social": 0.06,
+          "sanidad": 0.02,
+          "educacion": 0.21,
+          "ayudas-y-subvenciones": 0.1,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.01,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.19,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p5",
+          "texto": "Aprobar las modificaciones producidas en las relaciones de las personas aspirantes admitidas y excluidas al citado proceso selectivo publicadas por Resolución de 24 de septiembre de 2026 (BOE núm. 240, de 29 de septiembre). La lista definitiva de personas aspirantes admitidas, con las modificaciones correspondientes, se encontrará expuesta en las páginas del Punto de Acceso General www.administracion.gob.es y en la página web https://www.cultura.gob.es/servicios-al-ciudadano/catalogo/empleo-publico.html.",
+          "p": 0.89,
+          "confidence": 0.88
+        },
+        "oposicion": {
+          "nueva": 0.01,
+          "libre": 0.8
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 213,
+        "jev_ms": 108
+      },
+      "usage": {
+        "input_tokens": 4039
+      }
+    },
+    {
+      "id": "BOE-A-2026-23698",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 21 de octubre de 2026, del Ayuntamiento de Rábade (Lugo), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23698",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23698.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23698",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 919,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0.02,
+            "1": 0.98,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.04,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.07,
+          "transporte-y-trafico": 0.01,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Administrativo/a adscrito/a al Servicio de Contabilidad y Tesorería, perteneciente a la escala de Administración General, subescala Administrativa, por el sistema de oposición, en turno libre.",
+          "p": 0.81,
+          "confidence": 0.76
+        },
+        "oposicion": {
+          "nueva": 0.86,
+          "libre": 0.98
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 108,
+        "jev_ms": 67
+      },
+      "usage": {
+        "input_tokens": 2843
+      }
+    },
+    {
+      "id": "BOE-A-2026-23700",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 5 de noviembre de 2026, del Ayuntamiento de Barbate (Cádiz), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23700",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23700.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23700",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 917,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.97,
+          "probabilities": {
+            "0": 0.02,
+            "1": 0.97,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.08,
+          "transporte-y-trafico": 0.01,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.04,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Técnico/a Administración Especial de Recursos Humanos, perteneciente a la escala de Administración Especial, subescala Técnica y clase Superior, por el sistema de oposición, en turno libre.",
+          "p": 0.83,
+          "confidence": 0.79
+        },
+        "oposicion": {
+          "nueva": 0.86,
+          "libre": 0.98
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 111,
+        "jev_ms": 96
+      },
+      "usage": {
+        "input_tokens": 2830
+      }
+    },
+    {
+      "id": "BOE-A-2026-23703",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 5 de noviembre de 2026, del Ayuntamiento de Navalcarnero (Madrid), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23703",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23703.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23703",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 744,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0.02,
+            "1": 0.98,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.04,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.18,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.07,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.04,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Trabajador/a Social, perteneciente a la escala de Administración Especial, subescala Técnica y clase Media, por el sistema de concurso-oposición, en turno libre.",
+          "p": 0.92,
+          "confidence": 0.89
+        },
+        "oposicion": {
+          "nueva": 0.97,
+          "libre": 0.98
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 97,
+        "jev_ms": 78
+      },
+      "usage": {
+        "input_tokens": 2761
+      }
+    },
+    {
+      "id": "BOE-A-2026-23708",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 6 de noviembre de 2026, del Ayuntamiento de Nueva Carteya (Córdoba), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23708",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23708.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23708",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 7,
+      "totalChars": 1059,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.06,
+          "transporte-y-trafico": 0.1,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.12,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Policía Local, perteneciente a la escala de Administración Especial, subescala Servicios especiales y clase Policía Local y sus auxiliares, por el sistema de oposición, en turno libre.",
+          "p": 0.78,
+          "confidence": 0.74
+        },
+        "oposicion": {
+          "nueva": 0.55,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 112,
+        "jev_ms": 110
+      },
+      "usage": {
+        "input_tokens": 2903
+      }
+    },
+    {
+      "id": "BOE-A-2026-23710",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 6 de noviembre de 2026, del Ayuntamiento de Valladolid, referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23710",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23710.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23710",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 745,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.04,
+          "educacion": 0.09,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.08,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Técnico/a Superior, perteneciente a la escala de Administración General, subescala Técnica, por el sistema de concurso-oposición, en turno restringido.",
+          "p": 0.83,
+          "confidence": 0.79
+        },
+        "oposicion": {
+          "nueva": 0.87,
+          "libre": 0.07
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 112,
+        "jev_ms": 91
+      },
+      "usage": {
+        "input_tokens": 2759
+      }
+    },
+    {
+      "id": "BOE-A-2026-23715",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 6 de noviembre de 2026, del Ayuntamiento de Segura de la Sierra (Jaén), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23715",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23715.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23715",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 697,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.23,
+          "ayudas-y-subvenciones": 0.06,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.1,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Monitor/a Deportivo/a de la plantilla de personal laboral fijo, por el sistema de oposición, en turno libre.",
+          "p": 0.84,
+          "confidence": 0.8
+        },
+        "oposicion": {
+          "nueva": 0.95,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 115,
+        "jev_ms": 83
+      },
+      "usage": {
+        "input_tokens": 2757
+      }
+    },
+    {
+      "id": "BOE-A-2026-23716",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 6 de noviembre de 2026, del Ayuntamiento de Atarfe (Granada), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23716",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23716.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23716",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 753,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.04,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.07,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.07,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Ingeniero/a Técnico/a Industrial, perteneciente a la escala de Administración Especial, subescala Técnica y clase Media, por el sistema de concurso-oposición, en turno libre.",
+          "p": 0.85,
+          "confidence": 0.8
+        },
+        "oposicion": {
+          "nueva": 0.93,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 112,
+        "jev_ms": 90
+      },
+      "usage": {
+        "input_tokens": 2762
+      }
+    },
+    {
+      "id": "BOE-A-2026-23717",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 6 de noviembre de 2026, del Ayuntamiento de Bonares (Huelva), referente a la convocatoria para proveer varias plazas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23717",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23717.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23717",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 903,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.01,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.04,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Asesor/a Jurídico/a, perteneciente a la escala de Administración General, subescala Técnica, por el sistema de concurso-oposición, en turno de promoción interna.",
+          "p": 0.54,
+          "confidence": 0.42
+        },
+        "oposicion": {
+          "nueva": 0.98,
+          "libre": 0.47
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 109,
+        "jev_ms": 96
+      },
+      "usage": {
+        "input_tokens": 2826
+      }
+    },
+    {
+      "id": "BOE-A-2026-23720",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 6 de noviembre de 2026, del Ayuntamiento de Salt (Girona), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23720",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23720.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23720",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 835,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0.02,
+            "1": 0.98,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.07,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Encargado/a de obra de la plantilla de personal laboral fijo, por el sistema de concurso-oposición, en turno libre.",
+          "p": 0.87,
+          "confidence": 0.84
+        },
+        "oposicion": {
+          "nueva": 0.76,
+          "libre": 0.98
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 112,
+        "jev_ms": 73
+      },
+      "usage": {
+        "input_tokens": 2823
+      }
+    },
+    {
+      "id": "BOE-A-2026-23722",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "UNIVERSIDADES",
+      "epigrafe": "Personal técnico, de gestión y de administración y servicios",
+      "titulo": "Resolución de 28 de octubre de 2026, de la Universitat de València, por la que se convocan pruebas selectivas de acceso, por el sistema general de acceso libre, a la Escala Técnica Media de Gestión Cultural y Patrimonio.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23722",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23722.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23722",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": true,
+      "totalParagraphs": 299,
+      "totalChars": 56187,
+      "analysis": {
+        "relevancia": {
+          "score": 0.99,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          },
+          {
+            "id": "educacion",
+            "p": 0.98
+          },
+          {
+            "id": "impuestos-y-hacienda",
+            "p": 0.86
+          },
+          {
+            "id": "extranjeria",
+            "p": 0.76
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.86,
+          "pensiones-y-seguridad-social": 0.31,
+          "sanidad": 0.04,
+          "educacion": 0.98,
+          "ayudas-y-subvenciones": 0.22,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.06,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.76,
+          "justicia-y-derechos": 0.22,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p6",
+          "texto": "1.1 Esta convocatoria tiene por objeto la selección de personal para cubrir 2 puestos vacantes del grupo A (subgrupo A2), por el turno libre, sector de administración especial, escala técnica media de gestión cultural y patrimonio, 1 de ellos mediante el sistema de oposición y 1 mediante el sistema de concurso–oposición. (Ofertas de empleo público UVEG: 2025).",
+          "p": 0.78,
+          "confidence": 0.78
+        },
+        "oposicion": {
+          "nueva": 0.98,
+          "libre": 0.98
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 131,
+        "jev_ms": 134
+      },
+      "usage": {
+        "input_tokens": 9593
+      }
+    },
+    {
+      "id": "BOE-A-2026-23705",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 5 de noviembre de 2026, del Ayuntamiento de Palencia, Patronato Municipal de Deportes, referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23705",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23705.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23705",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 720,
+      "analysis": {
+        "relevancia": {
+          "score": 0.98,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0.02,
+            "1": 0.98,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.01,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.06,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.09,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.02,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Encargado/a Unidad de Gestión de Instalaciones de la plantilla de personal laboral fijo, por el sistema de concurso-oposición, en turno libre.",
+          "p": 0.95,
+          "confidence": 0.93
+        },
+        "oposicion": {
+          "nueva": 0.98,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 112,
+        "jev_ms": 66
+      },
+      "usage": {
+        "input_tokens": 2760
+      }
+    },
+    {
+      "id": "BOE-A-2026-23714",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 6 de noviembre de 2026, del Ayuntamiento de El Palmar de Troya (Sevilla), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23714",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23714.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23714",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 756,
+      "analysis": {
+        "relevancia": {
+          "score": 0.98,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0.02,
+            "1": 0.98,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.01,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Administrativo/a, perteneciente a la escala de Administración General, subescala Administrativa, por el sistema de concurso-oposición, en turno de promoción interna.",
+          "p": 0.87,
+          "confidence": 0.84
+        },
+        "oposicion": {
+          "nueva": 0.9,
+          "libre": 0.02
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 108,
+        "jev_ms": 100
+      },
+      "usage": {
+        "input_tokens": 2773
+      }
+    },
+    {
+      "id": "BOE-A-2026-23719",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 6 de noviembre de 2026, del Ayuntamiento de Villalar de los Comuneros (Valladolid), referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23719",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23719.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23719",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 733,
+      "analysis": {
+        "relevancia": {
+          "score": 0.98,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0.02,
+            "1": 0.98,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.03,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.12,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Una plaza de Operario/a de Mantenimiento a media jornada de la plantilla de personal laboral fijo, por el sistema de concurso-oposición, en turno libre.",
+          "p": 0.9,
+          "confidence": 0.87
+        },
+        "oposicion": {
+          "nueva": 0.93,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 113,
+        "jev_ms": 78
+      },
+      "usage": {
+        "input_tokens": 2772
+      }
+    },
+    {
+      "id": "BOE-A-2026-23750",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "UNIVERSIDADES",
+      "epigrafe": "Planes de estudios",
+      "titulo": "Resolución de 22 de octubre de 2026, de la Universidad Católica de Valencia San Vicente Mártir, por la que se publica el plan de estudios de Máster Universitario en Gestión Sanitaria y Dirección de Instituciones Sanitarias.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23750",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23750.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23750",
+      "rango": "Resolución",
+      "materias": [
+        "Administración y Dirección de Empresas",
+        "Planes de estudios",
+        "Sanidad",
+        "Universidad Católica de Valencia San Vicente Mártir"
+      ],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 862,
+      "analysis": {
+        "relevancia": {
+          "score": 0.95,
+          "confidence": 0.82,
+          "probabilities": {
+            "0": 0.12,
+            "1": 0.82,
+            "2": 0.06,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "educacion",
+            "p": 0.97
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.02,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.29,
+          "educacion": 0.97,
+          "ayudas-y-subvenciones": 0.02,
+          "oposiciones-y-empleo-publico": 0.02,
+          "consumo-y-empresas": 0.09,
+          "transporte-y-trafico": 0.01,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.02,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Este Rectorado ha resuelto publicar el plan de estudios conducente a la obtención del título de Máster Universitario en Gestión Sanitaria y Dirección de Instituciones Sanitarias por la Universidad Católica de Valencia San Vicente Mártir.",
+          "p": 0.99,
+          "confidence": 0.98
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 96,
+        "jev_ms": 81
+      },
+      "usage": {
+        "input_tokens": 2797
+      }
+    },
+    {
+      "id": "BOE-A-2026-23692",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "MINISTERIO DE HACIENDA",
+      "epigrafe": "Procedimientos de libre designación",
+      "titulo": "Resolución de 8 de noviembre de 2026, de la Subsecretaría, por la que se corrigen errores en la de 28 de octubre de 2026, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23692",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23692.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23692",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 17,
+      "totalChars": 2416,
+      "analysis": {
+        "relevancia": {
+          "score": 0.94,
+          "confidence": 0.93,
+          "probabilities": {
+            "0": 0.07,
+            "1": 0.93,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.06,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.11,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.08,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.06,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p15",
+          "texto": "Se abre un nuevo plazo de presentación de instancias de quince días hábiles a partir del siguiente al de la publicación de la presente corrección de errores en el «Boletín Oficial del Estado».",
+          "p": 0.49,
+          "confidence": 0.42
+        },
+        "oposicion": {
+          "nueva": 0.03,
+          "libre": 0.43
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 108,
+        "jev_ms": 85
+      },
+      "usage": {
+        "input_tokens": 3513
+      }
+    },
+    {
+      "id": "BOE-A-2026-23706",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Personal funcionario y laboral",
+      "titulo": "Resolución de 5 de noviembre de 2026, del Ayuntamiento de Moraleja (Cáceres), que deja sin efecto la de 14 de septiembre de 2026, referente a la convocatoria para proveer una plaza.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23706",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23706.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23706",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 2,
+      "totalChars": 256,
+      "analysis": {
+        "relevancia": {
+          "score": 0.94,
+          "confidence": 0.94,
+          "probabilities": {
+            "0": 0.06,
+            "1": 0.94,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.05,
+          "educacion": 0.06,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.05,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p1",
+          "texto": "Se deja sin efecto el anuncio publicado, mediante Resolución de 14 de septiembre de 2026, en el «Boletín Oficial del Estado» número 234, de 22 de septiembre de 2026 (BOE-A-2026-19659).",
+          "p": 1,
+          "confidence": 1
+        },
+        "oposicion": {
+          "nueva": 0.03,
+          "libre": 0.57
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 108,
+        "jev_ms": 79
+      },
+      "usage": {
+        "input_tokens": 2617
+      }
+    },
+    {
+      "id": "BOE-A-2026-23689",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "CONSEJO GENERAL DEL PODER JUDICIAL",
+      "epigrafe": "Carrera Judicial",
+      "titulo": "Acuerdo de 3 de noviembre de 2026, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se convoca concurso para la provisión de cargos judiciales entre miembros de la Carrera Judicial, con categoría de Juez/a.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23689",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23689.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23689",
+      "rango": "Acuerdo",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 115,
+      "totalChars": 13517,
+      "analysis": {
+        "relevancia": {
+          "score": 0.93,
+          "confidence": 0.9,
+          "probabilities": {
+            "0": 0.09,
+            "1": 0.9,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.05,
+          "sanidad": 0.02,
+          "educacion": 0.06,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.03,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.08,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p1",
+          "texto": "De conformidad con lo establecido en los artículos 326, 327, 329, 330, 334, 602 y concordantes de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial y del Reglamento 2/2011, de 28 de abril, de la Carrera Judicial, la Comisión Permanente del Consejo General del Poder Judicial, en su reunión del día 3 de noviembre de 2026, ha acordado anunciar concurso para la provisión de destinos en la Carrera Judicial, entre miembros de la misma con categoría de juez/a, con arreglo a las siguientes",
+          "p": 0.94,
+          "confidence": 0.94
+        },
+        "oposicion": {
+          "nueva": 0.94,
+          "libre": 0.04
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 111,
+        "jev_ms": 113
+      },
+      "usage": {
+        "input_tokens": 9010
+      }
+    },
+    {
+      "id": "BOE-A-2026-23696",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+      "epigrafe": "Escala de funcionarios de administración local con habilitación de carácter nacional",
+      "titulo": "Orden TDF/1199/2026, de 5 de noviembre, por la que, en ejecución de sentencia, se designa el Tribunal calificador de las pruebas selectivas para el acceso, por el sistema general de acceso libre, a la subescala de Secretaría-Intervención, de la Escala de funcionarios de administración local con habilitación de carácter nacional, convocadas por Resolución de 29 de junio de 2021.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23696",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23696.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23696",
+      "rango": "Orden",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 12,
+      "totalChars": 3119,
+      "analysis": {
+        "relevancia": {
+          "score": 0.92,
+          "confidence": 0.92,
+          "probabilities": {
+            "0": 0.08,
+            "1": 0.92,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.01,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.09,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.15,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p4",
+          "texto": "Designar a los miembros del Tribunal calificador de las pruebas selectivas para el acceso a la Subescala de Secretaría-Intervención, de la Escala de funcionarios de Administración local con habilitación de carácter nacional:",
+          "p": 0.97,
+          "confidence": 0.96
+        },
+        "oposicion": {
+          "nueva": 0.02,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 107,
+        "jev_ms": 90
+      },
+      "usage": {
+        "input_tokens": 3644
+      }
+    },
+    {
+      "id": "BOE-A-2026-23723",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "UNIVERSIDADES",
+      "epigrafe": "Personal técnico, de gestión y de administración y servicios",
+      "titulo": "Resolución de 6 de noviembre de 2026, de la Universidad de Valladolid, por la que se modifica la composición del Tribunal calificador del proceso selectivo para la provisión, por el sistema general de acceso libre, de plazas de personal laboral de los Grupos I, II, III y IV, convocado por Resolución de 25 de mayo de 2026.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23723",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23723.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23723",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 11,
+      "totalChars": 2873,
+      "analysis": {
+        "relevancia": {
+          "score": 0.89,
+          "confidence": 0.89,
+          "probabilities": {
+            "0": 0.11,
+            "1": 0.89,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.98
+          },
+          {
+            "id": "educacion",
+            "p": 0.95
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.02,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.95,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.98,
+          "consumo-y-empresas": 0.03,
+          "transporte-y-trafico": 0.01,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.11,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p9",
+          "texto": "Modificar la citada resolución en lo relativo a la composición del Tribunal Calificador para el acceso a la categoría de Titulado de Grado Medio Programador, nombrando, en la vacante producida, como vocal titular del Tribunal Calificador a doña María Asunción Gutiérrez Lerena.",
+          "p": 0.95,
+          "confidence": 0.94
+        },
+        "oposicion": {
+          "nueva": 0.02,
+          "libre": 0.97
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 112,
+        "jev_ms": 89
+      },
+      "usage": {
+        "input_tokens": 3528
+      }
+    },
+    {
+      "id": "BOE-A-2026-23728",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DEL INTERIOR",
+      "epigrafe": "Convenios",
+      "titulo": "Resolución de 4 de noviembre de 2026, de la Secretaría General Técnica, por la que se publica el Convenio entre la Secretaría de Estado de Seguridad y el Ayuntamiento de Cabra, para la incorporación de los Cuerpos de Policía Locales al Sistema de Seguimiento Integral de los casos de Violencia de Género.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23728",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23728.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23728",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": true,
+      "totalParagraphs": 84,
+      "totalChars": 20258,
+      "analysis": {
+        "relevancia": {
+          "score": 0.88,
+          "confidence": 0.82,
+          "probabilities": {
+            "0": 0.15,
+            "1": 0.82,
+            "2": 0.03,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "justicia-y-derechos",
+            "p": 0.9
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.05,
+          "educacion": 0.16,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.04,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.9,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p36",
+          "texto": "El presente convenio tiene por objeto establecer la forma de colaboración entre la Secretaría de Estado de Seguridad y el Ayuntamiento para la adecuación de los mecanismos técnicos informáticos necesarios para que los miembros del Cuerpo de Policía Local de la Entidad Local que actúen en materia de Violencia de Género se incorporen al «Sistema de Seguimiento integral de los casos de Violencia de Género» del Ministerio del Interior.",
+          "p": 0.88,
+          "confidence": 0.88
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 102,
+        "jev_ms": 118
+      },
+      "usage": {
+        "input_tokens": 9190
+      }
+    },
+    {
+      "id": "BOE-A-2026-23697",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "TRIBUNAL DE CUENTAS",
+      "epigrafe": "Cuerpo Superior de Auditores del Tribunal de Cuentas",
+      "titulo": "Resolución de 5 de noviembre de 2026, de la Presidencia del Tribunal de Cuentas, por la que se modifica la composición del Tribunal calificador del proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, en el Cuerpo Superior de Auditores del Tribunal de Cuentas, convocado por Resolución de 16 de diciembre de 2025.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23697",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23697.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23697",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 1848,
+      "analysis": {
+        "relevancia": {
+          "score": 0.84,
+          "confidence": 0.84,
+          "probabilities": {
+            "0": 0.16,
+            "1": 0.84,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.96
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.01,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.02,
+          "pensiones-y-seguridad-social": 0.05,
+          "sanidad": 0.02,
+          "educacion": 0.18,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.96,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.01,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.05,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p4",
+          "texto": "Esta Presidencia resuelve designar a doña Ana Lucía Rincón Villagra, del Cuerpo Superior de Letrados del Tribunal de Cuentas, como vocal titular del Tribunal calificador correspondiente al proceso selectivo para el ingreso, por el sistema general de acceso libre y promoción interna, en el Cuerpo Superior de Auditores del Tribunal de Cuentas, convocado por Resolución de 16 de diciembre de 2025 (BOE núm. 306, de 22 de diciembre), en sustitución de don Mariano Sola Fernández, con efectos a partir del 13 de noviembre de 2026.",
+          "p": 0.99,
+          "confidence": 0.99
+        },
+        "oposicion": {
+          "nueva": 0.02,
+          "libre": 0.92
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 113,
+        "jev_ms": 83
+      },
+      "usage": {
+        "input_tokens": 3191
+      }
+    },
+    {
+      "id": "BOE-A-2026-23662",
+      "seccion": "1",
+      "seccionNombre": "I. Disposiciones generales",
+      "departamento": "TRIBUNAL CONSTITUCIONAL",
+      "epigrafe": "Conflictos constitucionales",
+      "titulo": "Conflicto positivo de competencia n.º 6108-2026, contra determinados preceptos del Real Decreto 326/2026, de 22 de abril, por el que se regula el Plan Estatal de Vivienda 2026-2030.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23662",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23662.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23662",
+      "rango": "Providencia",
+      "materias": [
+        "Conflictos de Competencia",
+        "Urbanismo",
+        "Viviendas"
+      ],
+      "truncated": false,
+      "totalParagraphs": 2,
+      "totalChars": 464,
+      "analysis": {
+        "relevancia": {
+          "score": 0.7,
+          "confidence": 0.28,
+          "probabilities": {
+            "0": 0.63,
+            "1": 0.08,
+            "2": 0.23,
+            "3": 0.06
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.18,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.04,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.06,
+          "oposiciones-y-empleo-publico": 0.02,
+          "consumo-y-empresas": 0.12,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.1,
+          "medio-ambiente-y-energia": 0.06
+        },
+        "extracto": {
+          "id": "p1",
+          "texto": "El Pleno del Tribunal Constitucional, por providencia de 3 de noviembre de 2026, ha acordado admitir a trámite el conflicto positivo de competencia número 6108-2026, promovido por la Junta de Extremadura, en relación con determinados preceptos del Real Decreto 326/2026, de 22 de abril, por el que se regula el Plan Estatal de Vivienda 2026-2030.",
+          "p": 1,
+          "confidence": 1
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 312,
+        "jev_ms": 341
+      },
+      "usage": {
+        "input_tokens": 2610
+      }
+    },
+    {
+      "id": "BOE-A-2026-23695",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+      "epigrafe": "Procedimientos de libre designación",
+      "titulo": "Resolución de 4 de noviembre de 2026, de la Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P., por la que se convoca la provisión de puesto de trabajo por el sistema de libre designación.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23695",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23695.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23695",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 14,
+      "totalChars": 2749,
+      "analysis": {
+        "relevancia": {
+          "score": 0.69,
+          "confidence": 0.69,
+          "probabilities": {
+            "0": 0.31,
+            "1": 0.69,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.02,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.21,
+          "ayudas-y-subvenciones": 0.06,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.07,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p5",
+          "texto": "El puesto de trabajo que se convoca podrá ser solicitado por el personal funcionario que reúna los requisitos establecidos para su desempeño y que se relaciona en el anexo I de la presente resolución.",
+          "p": 0.57,
+          "confidence": 0.46
+        },
+        "oposicion": {
+          "nueva": 0.94,
+          "libre": 0.05
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 113,
+        "jev_ms": 104
+      },
+      "usage": {
+        "input_tokens": 3542
+      }
+    },
+    {
+      "id": "BOE-A-2026-23724",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "CORTES GENERALES",
+      "epigrafe": "Becas",
+      "titulo": "Resolución de 27 de octubre de 2026, de la Presidencia del Congreso de los Diputados, por la que se corrigen errores en el Acuerdo de 13 de octubre de 2026, de la Mesa de la Diputación Permanente, por la que se convocan becas de formación práctica sobre comunicación institucional.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23724",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23724.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23724",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 8,
+      "totalChars": 1735,
+      "analysis": {
+        "relevancia": {
+          "score": 0.68,
+          "confidence": 0.67,
+          "probabilities": {
+            "0": 0.32,
+            "1": 0.67,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "educacion",
+            "p": 0.96
+          },
+          {
+            "id": "ayudas-y-subvenciones",
+            "p": 0.83
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.06,
+          "impuestos-y-hacienda": 0.04,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.96,
+          "ayudas-y-subvenciones": 0.83,
+          "oposiciones-y-empleo-publico": 0.54,
+          "consumo-y-empresas": 0.09,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.07,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p1",
+          "texto": "Advertido error en el Acuerdo de la Mesa de la Diputación Permanente de 13 de octubre de 2026, de convocatoria de seis becas de formación práctica sobre comunicación institucional, publicada en el «Boletín Oficial del Estado» número 265 de 26 de octubre de 2026, se procede a la sustitución del texto de la base Octava, insertándose el correcto a continuación:",
+          "p": 0.91,
+          "confidence": 0.89
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 1107,
+        "jev_ms": 100
+      },
+      "usage": {
+        "input_tokens": 3067
+      }
+    },
+    {
+      "id": "BOE-A-2026-23731",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE INDUSTRIA Y TURISMO",
+      "epigrafe": "Normalización",
+      "titulo": "Resolución de 3 de noviembre de 2026, de la Dirección General de Estrategia Industrial y de la Pequeña y Mediana Empresa, por la que se publica la relación de normas UNE anuladas durante el mes de octubre de 2026.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23731",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23731.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23731",
+      "rango": "Resolución",
+      "materias": [
+        "Normalización"
+      ],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 1121,
+      "analysis": {
+        "relevancia": {
+          "score": 0.67,
+          "confidence": 0.63,
+          "probabilities": {
+            "0": 0.36,
+            "1": 0.63,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.02,
+          "pensiones-y-seguridad-social": 0.01,
+          "sanidad": 0.02,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.02,
+          "oposiciones-y-empleo-publico": 0.02,
+          "consumo-y-empresas": 0.58,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.01,
+          "justicia-y-derechos": 0.02,
+          "medio-ambiente-y-energia": 0.04
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Esta Dirección General ha resuelto publicar en el «Boletín Oficial del Estado», la relación de normas españolas UNE anuladas durante el mes de octubre de 2026, identificadas por su título y código numérico, que figura como anexo a la presente resolución.",
+          "p": 1,
+          "confidence": 1
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 96,
+        "jev_ms": 94
+      },
+      "usage": {
+        "input_tokens": 2853
+      }
+    },
+    {
+      "id": "BOE-A-2026-23730",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE INDUSTRIA Y TURISMO",
+      "epigrafe": "Normalización",
+      "titulo": "Resolución de 3 de noviembre de 2026, de la Dirección General de Estrategia Industrial y de la Pequeña y Mediana Empresa, por la que se publica la relación de normas europeas que han sido ratificadas durante el mes de octubre de 2026 como normas españolas.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23730",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23730.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23730",
+      "rango": "Resolución",
+      "materias": [
+        "Normalización"
+      ],
+      "truncated": false,
+      "totalParagraphs": 5,
+      "totalChars": 1318,
+      "analysis": {
+        "relevancia": {
+          "score": 0.66,
+          "confidence": 0.61,
+          "probabilities": {
+            "0": 0.37,
+            "1": 0.61,
+            "2": 0.02,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.02,
+          "pensiones-y-seguridad-social": 0.01,
+          "sanidad": 0.02,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.02,
+          "oposiciones-y-empleo-publico": 0.01,
+          "consumo-y-empresas": 0.51,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.01,
+          "justicia-y-derechos": 0.02,
+          "medio-ambiente-y-energia": 0.05
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Esta Dirección General ha resuelto publicar en el «Boletín Oficial del Estado», la relación de normas europeas a las que se ha otorgado el rango de norma española UNE durante el mes de octubre de 2026 identificadas por su título y código numérico, con indicación de su fecha de disponibilidad, que figuran como anexo a la presente resolución.",
+          "p": 1,
+          "confidence": 1
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 107,
+        "jev_ms": 79
+      },
+      "usage": {
+        "input_tokens": 2913
+      }
+    },
+    {
+      "id": "BOE-A-2026-23735",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+      "epigrafe": "Lugares de memoria democrática",
+      "titulo": "Resolución de 30 de octubre de 2026, de la Dirección General de Promoción de la Memoria Democrática, por la que se publica el Acuerdo de incoación del procedimiento de declaración de Lugar de Memoria Democrática de la «Huelga de Bandas».",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23735",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23735.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23735",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 54,
+      "totalChars": 17819,
+      "analysis": {
+        "relevancia": {
+          "score": 0.6,
+          "confidence": 0.58,
+          "probabilities": {
+            "0": 0.41,
+            "1": 0.58,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.06,
+          "impuestos-y-hacienda": 0.02,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.12,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.02,
+          "consumo-y-empresas": 0.19,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.32,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p52",
+          "texto": "Proceder a la anotación preventiva en el Inventario de Lugares de Memoria Democrática y a la aplicación provisional del régimen de protección previsto para los lugares inscritos en dicho Inventario. En concreto el titular del bien deberá respetar las medidas generales de garantía de perdurabilidad, así como evitar la remoción o desaparición de vestigios erigidos en recuerdo y reconocimiento de hechos representativos de la memoria democrática y la lucha de la ciudadanía española por sus derechos y libertades. La incoación de este procedimiento no altera el uso actual, sin perjuicio de que este habrá de ser compatible con las medidas protección.",
+          "p": 0.61,
+          "confidence": 0.6
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 97,
+        "jev_ms": 101
+      },
+      "usage": {
+        "input_tokens": 8301
+      }
+    },
+    {
+      "id": "BOE-A-2026-23690",
+      "seccion": "2B",
+      "seccionNombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+      "departamento": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+      "epigrafe": "Procedimientos de libre designación",
+      "titulo": "Resolución de 5 de noviembre de 2026, de la Subsecretaría, por la que se convoca la provisión de puesto de trabajo por el sistema de libre designación.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23690",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23690.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23690",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 15,
+      "totalChars": 3706,
+      "analysis": {
+        "relevancia": {
+          "score": 0.54,
+          "confidence": 0.54,
+          "probabilities": {
+            "0": 0.46,
+            "1": 0.54,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "oposiciones-y-empleo-publico",
+            "p": 0.99
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.02,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.02,
+          "educacion": 0.06,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.99,
+          "consumo-y-empresas": 0.03,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p5",
+          "texto": "El puesto de trabajo a proveer mediante libre designación entre funcionarios/as públicos/as, al que se refiere la convocatoria, se detalla en el anexo I, que podrá ser solicitado por el personal funcionario que reúna los requisitos establecidos para el desempeño del mismo en la relación de puestos de trabajo aprobada para este Ministerio.",
+          "p": 0.83,
+          "confidence": 0.8
+        },
+        "oposicion": {
+          "nueva": 0.93,
+          "libre": 0.03
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 110,
+        "jev_ms": 95
+      },
+      "usage": {
+        "input_tokens": 3764
+      }
+    },
+    {
+      "id": "BOE-A-2026-23733",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE INDUSTRIA Y TURISMO",
+      "epigrafe": "Normalización",
+      "titulo": "Resolución de 3 de noviembre de 2026, de la Dirección General de Estrategia Industrial y de la Pequeña y Mediana Empresa, por la que se someten a información pública los proyectos de normas europeas e internacionales que han sido tramitados como proyectos de norma UNE por la Asociación Española de Normalización, correspondientes al mes de octubre de 2026.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23733",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23733.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23733",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 1818,
+      "analysis": {
+        "relevancia": {
+          "score": 0.53,
+          "confidence": 0.5,
+          "probabilities": {
+            "0": 0.49,
+            "1": 0.5,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "consumo-y-empresas",
+            "p": 0.63
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.02,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.02,
+          "consumo-y-empresas": 0.63,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.01,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.05
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Esta Dirección General ha resuelto someter a información pública en el «Boletín Oficial del Estado», la relación de proyectos de normas que una vez aprobados como normas europeas e internacionales serán adoptados como normas UNE y que figuran en el anexo que se acompaña a la presente resolución, con indicación del código, título y duración del período de información pública establecido para cada proyecto, que se contará a partir del día siguiente al de la publicación de esta resolución.",
+          "p": 0.97,
+          "confidence": 0.96
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 288,
+        "jev_ms": 85
+      },
+      "usage": {
+        "input_tokens": 3066
+      }
+    },
+    {
+      "id": "BOE-A-2026-23736",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+      "epigrafe": "Convenios",
+      "titulo": "Resolución de 2 de noviembre de 2026, de la Confederación Hidrográfica del Miño-Sil, O.A., por la que se publica la Adenda de modificación del Convenio con el Ayuntamiento de Quiroga, sobre la financiación, ejecución y entrega de las actuaciones de puesta en valor del entorno del túnel romano de Montefurado en Quiroga (Lugo).",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23736",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23736.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23736",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 39,
+      "totalChars": 8011,
+      "analysis": {
+        "relevancia": {
+          "score": 0.52,
+          "confidence": 0.51,
+          "probabilities": {
+            "0": 0.49,
+            "1": 0.51,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.04,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.08,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.03,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.11,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.16,
+          "transporte-y-trafico": 0.04,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.3
+        },
+        "extracto": {
+          "id": "p19",
+          "texto": "El objeto de esta adenda es incrementar el importe de la actuación y, en consecuencia, reajustar las anualidades del convenio entre la Confederación Hidrográfica del Miño-Sil, O.A., y el Ayuntamiento de Quiroga sobre la financiación, ejecución y entrega de las actuaciones de puesta en valor del entorno del túnel romano de Montefurado en el T.M. de Quiroga (Lugo), PDM MIÑO-SIL ES010_3_CHCH0XCET29WP2537.",
+          "p": 0.87,
+          "confidence": 0.86
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 102,
+        "jev_ms": 106
+      },
+      "usage": {
+        "input_tokens": 5682
+      }
+    },
+    {
+      "id": "BOE-A-2026-23727",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+      "epigrafe": "Recursos",
+      "titulo": "Resolución de 29 de octubre de 2026, de la Dirección General para la Eficiencia del Servicio Público de Justicia, por la que se emplaza a las personas interesadas en el recurso contencioso-administrativo 2108/2026, interpuesto ante Tribunal Superior de Justicia de Madrid, Sala de lo Contencioso-Administrativo, Sección Séptima.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23727",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23727.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23727",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 3,
+      "totalChars": 1086,
+      "analysis": {
+        "relevancia": {
+          "score": 0.51,
+          "confidence": 0.51,
+          "probabilities": {
+            "0": 0.49,
+            "1": 0.51,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.02,
+          "pensiones-y-seguridad-social": 0.05,
+          "sanidad": 0.02,
+          "educacion": 0.1,
+          "ayudas-y-subvenciones": 0.02,
+          "oposiciones-y-empleo-publico": 0.35,
+          "consumo-y-empresas": 0.03,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.43,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "En consecuencia, esta Dirección General ha resuelto emplazar a las personas interesadas en el mismo, de conformidad con lo dispuesto en el artículo 49 de la Ley reguladora de la Jurisdicción Contencioso-administrativa, de 13 de julio de 1998, para que puedan comparecer ante la referida Sala en el plazo de nueve días.",
+          "p": 0.95,
+          "confidence": 0.9
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 100,
+        "jev_ms": 96
+      },
+      "usage": {
+        "input_tokens": 2827
+      }
+    },
+    {
+      "id": "BOE-A-2026-23734",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE INDUSTRIA Y TURISMO",
+      "epigrafe": "Normalización",
+      "titulo": "Resolución de 3 de noviembre de 2026, de la Dirección General de Estrategia Industrial y de la Pequeña y Mediana Empresa, por la que se someten a información pública los proyectos de norma UNE que la Asociación Española de Normalización tiene en tramitación, correspondientes al mes de octubre de 2026.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23734",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23734.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23734",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 1678,
+      "analysis": {
+        "relevancia": {
+          "score": 0.44,
+          "confidence": 0.58,
+          "probabilities": {
+            "0": 0.59,
+            "1": 0.4,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "consumo-y-empresas",
+            "p": 0.64
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.01,
+          "sanidad": 0.02,
+          "educacion": 0.04,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.02,
+          "consumo-y-empresas": 0.64,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.01,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.07
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Esta Dirección General ha resuelto someter a información pública en el «Boletín Oficial del Estado», la relación de proyectos de normas españolas UNE que se encuentran en fase de aprobación por la Asociación Española de Normalización y que figuran en el anexo que se acompaña a la presente resolución, con indicación del código, título y duración del período de información pública establecido para cada norma, que se contará a partir del día siguiente al de la publicación de esta resolución.",
+          "p": 0.97,
+          "confidence": 0.96
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 100,
+        "jev_ms": 71
+      },
+      "usage": {
+        "input_tokens": 3016
+      }
+    },
+    {
+      "id": "BOE-A-2026-23732",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE INDUSTRIA Y TURISMO",
+      "epigrafe": "Normalización",
+      "titulo": "Resolución de 3 de noviembre de 2026, de la Dirección General de Estrategia Industrial y de la Pequeña y Mediana Empresa, por la que se publica la relación de normas UNE aprobadas por la Asociación Española de Normalización, durante el mes de octubre de 2026.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23732",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23732.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23732",
+      "rango": "Resolución",
+      "materias": [
+        "Normalización"
+      ],
+      "truncated": false,
+      "totalParagraphs": 6,
+      "totalChars": 1280,
+      "analysis": {
+        "relevancia": {
+          "score": 0.42,
+          "confidence": 0.59,
+          "probabilities": {
+            "0": 0.61,
+            "1": 0.37,
+            "2": 0.02,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.02,
+          "oposiciones-y-empleo-publico": 0.02,
+          "consumo-y-empresas": 0.39,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.01,
+          "justicia-y-derechos": 0.02,
+          "medio-ambiente-y-energia": 0.05
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Esta Dirección General ha resuelto publicar en el «Boletín Oficial del Estado», la relación de normas españolas UNE aprobadas por la Asociación Española de Normalización, correspondientes al mes de octubre de 2026, identificadas por su título y código numérico, que figura como anexo a la presente resolución.",
+          "p": 1,
+          "confidence": 1
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 191,
+        "jev_ms": 90
+      },
+      "usage": {
+        "input_tokens": 2915
+      }
+    },
+    {
+      "id": "BOE-A-2026-23663",
+      "seccion": "1",
+      "seccionNombre": "I. Disposiciones generales",
+      "departamento": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+      "epigrafe": "Subvenciones",
+      "titulo": "Real Decreto 976/2026, de 11 de noviembre, por el que se regula la concesión directa de subvenciones para la cooperación internacional al desarrollo sostenible por la Secretaría de Estado de Cooperación Internacional del Ministerio de Asuntos Exteriores, Unión Europea y Cooperación.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23663",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23663.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23663",
+      "rango": "Real Decreto",
+      "materias": [
+        "Asociaciones",
+        "Asociaciones empresariales",
+        "Asociaciones sindicales",
+        "Ayuda al desarrollo",
+        "Secretaría de Estado de Cooperación Internacional",
+        "Subvenciones"
+      ],
+      "truncated": true,
+      "totalParagraphs": 277,
+      "totalChars": 76326,
+      "analysis": {
+        "relevancia": {
+          "score": 0.34,
+          "confidence": 0.66,
+          "probabilities": {
+            "0": 0.67,
+            "1": 0.32,
+            "2": 0.01,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "educacion",
+            "p": 0.73
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.03,
+          "empleo-y-trabajo": 0.06,
+          "impuestos-y-hacienda": 0.14,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.03,
+          "educacion": 0.73,
+          "ayudas-y-subvenciones": 0.52,
+          "oposiciones-y-empleo-publico": 0.04,
+          "consumo-y-empresas": 0.4,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.07,
+          "medio-ambiente-y-energia": 0.1
+        },
+        "extracto": {
+          "id": "p19",
+          "texto": "El presente real decreto tiene por objeto regular la concesión directa de subvenciones en materia de cooperación internacional al desarrollo sostenible a las entidades que se indican en el artículo 4, en aplicación de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en los apartados 2 y 3 del artículo 28 de dicha ley, y en el artículo 67 del Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, aprobado por el Real Decreto 887/2006, de 21 de julio.",
+          "p": 0.47,
+          "confidence": 0.44
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 578,
+        "jev_ms": 157
+      },
+      "usage": {
+        "input_tokens": 8054
+      }
+    },
+    {
+      "id": "BOE-A-2026-23748",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "ADMINISTRACIÓN LOCAL",
+      "epigrafe": "Bienes de interés cultural",
+      "titulo": "Resolución de 30 de octubre de 2026, del Consejo Insular de Mallorca (Illes Balears), referente a la incoación del expediente de declaración, como bien de interés cultural, de la embarcación Els Gorretes.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23748",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23748.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23748",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 86,
+      "totalChars": 19467,
+      "analysis": {
+        "relevancia": {
+          "score": 0.3,
+          "confidence": 0.71,
+          "probabilities": {
+            "0": 0.71,
+            "1": 0.29,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.01,
+          "sanidad": 0.01,
+          "educacion": 0.16,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.02,
+          "consumo-y-empresas": 0.15,
+          "transporte-y-trafico": 0.14,
+          "extranjeria": 0.01,
+          "justicia-y-derechos": 0.06,
+          "medio-ambiente-y-energia": 0.28
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "I. Incoar el expediente de declaración como Bien de Interés Cultural a favor de la embarcación «Els Gorretes», de acuerdo con el informe técnico de 18 de septiembre de 2026, que se adjunta y forma parte integrante del presente acuerdo, y de conformidad con los artículos 7 y siguientes de la Ley 12/1998, de 21 de diciembre, del Patrimonio Histórico de les Illes Balears.",
+          "p": 0.74,
+          "confidence": 0.73
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 101,
+        "jev_ms": 135
+      },
+      "usage": {
+        "input_tokens": 9411
+      }
+    },
+    {
+      "id": "BOE-A-2026-23725",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+      "epigrafe": "Comisiones de trabajo",
+      "titulo": "Orden PJC/1200/2026, de 3 de noviembre, por la que se publica el Acuerdo del Consejo de Ministros de 20 de octubre de 2026, por el que se modifica el Acuerdo de 1 de marzo de 2019, por el que se crea el Observatorio de Salud de las Mujeres.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23725",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23725.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23725",
+      "rango": "Orden",
+      "materias": [
+        "Dirección General de Salud Pública Calidad e Innovación",
+        "Mujer",
+        "Organización de la Administración del Estado",
+        "Órganos colegiados",
+        "Salud"
+      ],
+      "truncated": false,
+      "totalParagraphs": 91,
+      "totalChars": 17412,
+      "analysis": {
+        "relevancia": {
+          "score": 0.28,
+          "confidence": 0.71,
+          "probabilities": {
+            "0": 0.81,
+            "1": 0.1,
+            "2": 0.08,
+            "3": 0.01
+          }
+        },
+        "categorias": [
+          {
+            "id": "sanidad",
+            "p": 0.82
+          },
+          {
+            "id": "justicia-y-derechos",
+            "p": 0.6
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.06,
+          "sanidad": 0.82,
+          "educacion": 0.08,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.15,
+          "consumo-y-empresas": 0.04,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.04,
+          "justicia-y-derechos": 0.6,
+          "medio-ambiente-y-energia": 0.04
+        },
+        "extracto": {
+          "id": "p10",
+          "texto": "Este nuevo acuerdo refuerza el carácter institucional e intersectorial del Observatorio mediante la incorporación del ámbito de la igualdad a su estructura de dirección, la ampliación y diversificación de las vocalías y una mayor participación de departamentos ministeriales y organismos públicos, manteniendo la representación de las comunidades autónomas, entidades locales y organizaciones sociales, cuya presencia se amplía. Asimismo, se profundiza en el abordaje de las desigualdades en salud desde una perspectiva de género, reconociendo su interacción con los determinantes sociales de la salud y la necesidad de una respuesta coordinada entre los distintos ámbitos de las políticas públicas. Finalmente, se precisan las funciones de los distintos órganos del Observatorio para fortalecer su capacidad de análisis, asesoramiento, coordinación y seguimiento.",
+          "p": 0.66,
+          "confidence": 0.65
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 103,
+        "jev_ms": 137
+      },
+      "usage": {
+        "input_tokens": 8999
+      }
+    },
+    {
+      "id": "BOE-A-2026-23726",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+      "epigrafe": "Comunidad Autónoma de Aragón. Convenio",
+      "titulo": "Resolución de 29 de octubre de 2026, de la Secretaría de Estado de Justicia, por la que se publica el Convenio con la Comunidad Autónoma de Aragón, sobre transferencia de soluciones tecnológicas en materia de Justicia.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23726",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23726.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23726",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": true,
+      "totalParagraphs": 685,
+      "totalChars": 102747,
+      "analysis": {
+        "relevancia": {
+          "score": 0.28,
+          "confidence": 0.72,
+          "probabilities": {
+            "0": 0.78,
+            "1": 0.16,
+            "2": 0.06,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "justicia-y-derechos",
+            "p": 0.65
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.03,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.16,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.06,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.65,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p1",
+          "texto": "Con fecha 30 de septiembre de 2026 se ha suscrito el Convenio entre el Ministerio de la Presidencia, Justicia y Relaciones con las Cortes y la Comunidad Autónoma de Aragón sobre transferencia de soluciones tecnológicas en materia de Justicia, cuyo objeto es formalizar los compromisos de transferencia tecnológica entre ambas Administraciones mediante la provisión de servicios y la puesta a disposición de soluciones tecnológicas destinadas a favorecer la interoperabilidad, la reutilización de recursos tecnológicos y la transformación digital de la Administración de Justicia.",
+          "p": 0.67,
+          "confidence": 0.66
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 199,
+        "jev_ms": 107
+      },
+      "usage": {
+        "input_tokens": 8477
+      }
+    },
+    {
+      "id": "BOE-A-2026-23668",
+      "seccion": "1",
+      "seccionNombre": "I. Disposiciones generales",
+      "departamento": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "epigrafe": "Seguridad Social. Cierre del ejercicio",
+      "titulo": "Orden ISM/1198/2026, de 10 de noviembre, por la que se regulan las operaciones de cierre del ejercicio 2026 para las entidades que integran el sistema de la Seguridad Social.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23668",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23668.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23668",
+      "rango": "Orden",
+      "materias": [
+        "Contabilidad",
+        "Entidades Gestoras y Servicios Comunes de la Seguridad Social",
+        "Intervención General de la Seguridad Social",
+        "Mutuas de Accidentes de Trabajo y Enfermedades Profesionales de la Seguridad Social",
+        "Ordenación de gastos y pagos",
+        "Presupuestos de la Seguridad Social",
+        "Tesorería General de la Seguridad Social"
+      ],
+      "truncated": true,
+      "totalParagraphs": 70,
+      "totalChars": 24088,
+      "analysis": {
+        "relevancia": {
+          "score": 0.11,
+          "confidence": 0.88,
+          "probabilities": {
+            "0": 0.92,
+            "1": 0.05,
+            "2": 0.02,
+            "3": 0.01
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.05,
+          "impuestos-y-hacienda": 0.1,
+          "pensiones-y-seguridad-social": 0.5,
+          "sanidad": 0.14,
+          "educacion": 0.03,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.16,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.04,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p3",
+          "texto": "Para ello, en esta orden se establecen los plazos para la tramitación de los expedientes de gasto a fiscalizar e intervenir, para la remisión de la documentación contable necesaria para el registro de las operaciones, para la ordenación de pagos y realización de los mismos, así como, para la concreción de distintas operaciones reguladas en la citada Ley 47/2003, de 26 de noviembre y en la Instrucción de Operatoria Contable para las entidades que integran el sistema de la Seguridad Social aprobada por Resolución de 11 de octubre de 2022, de la Intervención General de la Seguridad Social.",
+          "p": 0.42,
+          "confidence": 0.41
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 100,
+        "jev_ms": 128
+      },
+      "usage": {
+        "input_tokens": 8589
+      }
+    },
+    {
+      "id": "BOE-A-2026-23664",
+      "seccion": "1",
+      "seccionNombre": "I. Disposiciones generales",
+      "departamento": "MINISTERIO DE INDUSTRIA Y TURISMO",
+      "epigrafe": "Subvenciones",
+      "titulo": "Real Decreto 982/2026, de 11 de noviembre, por el que se modifica el Real Decreto 1009/2022, de 5 de diciembre, por el que se establecen las normas reguladoras de la concesión directa de un préstamo a la empresa Airbus Helicopters España, S.A.U., para el programa de los helicópteros Tigre MKIII.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23664",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23664.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23664",
+      "rango": "Real Decreto",
+      "materias": [
+        "Aeronaves",
+        "Ayudas",
+        "Desarrollo tecnológico",
+        "Industria del armamento",
+        "Ministerio de Industria y Turismo",
+        "Préstamos"
+      ],
+      "truncated": false,
+      "totalParagraphs": 67,
+      "totalChars": 16342,
+      "analysis": {
+        "relevancia": {
+          "score": 0.1,
+          "confidence": 0.91,
+          "probabilities": {
+            "0": 0.91,
+            "1": 0.09,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "consumo-y-empresas",
+            "p": 0.85
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.13,
+          "pensiones-y-seguridad-social": 0.05,
+          "sanidad": 0.02,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.21,
+          "oposiciones-y-empleo-publico": 0.02,
+          "consumo-y-empresas": 0.85,
+          "transporte-y-trafico": 0.43,
+          "extranjeria": 0.01,
+          "justicia-y-derechos": 0.08,
+          "medio-ambiente-y-energia": 0.03
+        },
+        "extracto": {
+          "id": "p4",
+          "texto": "En fecha 22 de junio de 2026, la empresa AHE ha solicitado la modificación de la orden ministerial de concesión del anticipo reembolsable en la forma de préstamo otorgado en virtud del real decreto citado. En concreto, AHE informa que, debido a diferentes vicisitudes, la ejecución del programa Tigre MKIII se ha retrasado unos dieciocho meses, lo que obliga necesariamente a modificar las disposiciones de libramiento previstas por el Ministerio de Industria y Turismo para acompasar los libramientos de la financiación a los ritmos reales de ejecución del programa.",
+          "p": 0.41,
+          "confidence": 0.39
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 390,
+        "jev_ms": 237
+      },
+      "usage": {
+        "input_tokens": 8100
+      }
+    },
+    {
+      "id": "BOE-A-2026-23665",
+      "seccion": "1",
+      "seccionNombre": "I. Disposiciones generales",
+      "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+      "epigrafe": "Subvenciones",
+      "titulo": "Real Decreto 983/2026, de 11 de noviembre, por el que se regula la concesión directa de una subvención destinada a la Fundación para la Transformación de La Rioja para contribuir al proyecto de creación del Centro Nacional de Tecnologías del Envase (CENTIDE), con cargo al ejercicio presupuestario 2026.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23665",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23665.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23665",
+      "rango": "Real Decreto",
+      "materias": [
+        "Centros tecnológicos",
+        "Desarrollo tecnológico",
+        "Embalajes",
+        "Envases",
+        "Fundaciones",
+        "La Rioja",
+        "Secretaría de Estado de Medio Ambiente",
+        "Subvenciones"
+      ],
+      "truncated": true,
+      "totalParagraphs": 84,
+      "totalChars": 31921,
+      "analysis": {
+        "relevancia": {
+          "score": 0.1,
+          "confidence": 0.9,
+          "probabilities": {
+            "0": 0.9,
+            "1": 0.1,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "medio-ambiente-y-energia",
+            "p": 0.82
+          },
+          {
+            "id": "consumo-y-empresas",
+            "p": 0.72
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.04,
+          "impuestos-y-hacienda": 0.22,
+          "pensiones-y-seguridad-social": 0.03,
+          "sanidad": 0.02,
+          "educacion": 0.05,
+          "ayudas-y-subvenciones": 0.43,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.72,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.82
+        },
+        "extracto": {
+          "id": "p20",
+          "texto": "Este real decreto tiene por objeto regular la concesión directa de una subvención a favor de la Fundación para la Transformación de La Rioja, NIF G26466748, para contribuir al proyecto de creación del Centro Nacional de Tecnologías del Envase (en adelante, CENTIDE), de acuerdo con lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.",
+          "p": 0.92,
+          "confidence": 0.92
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 503,
+        "jev_ms": 166
+      },
+      "usage": {
+        "input_tokens": 8452
+      }
+    },
+    {
+      "id": "BOE-A-2026-23669",
+      "seccion": "1",
+      "seccionNombre": "I. Disposiciones generales",
+      "departamento": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+      "epigrafe": "Subvenciones",
+      "titulo": "Real Decreto 987/2026, de 11 de noviembre, por el que se regula la concesión directa de una subvención a la Asociación Española de Normalización (UNE) destinada a impulsar la actividad de normalización y estandarización, así como el soporte a secretaría y acción internacional en comités, tanto en el ámbito de las tecnologías digitales y la digitalización, como de las telecomunicaciones e infraestructuras digitales.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23669",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23669.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23669",
+      "rango": "Real Decreto",
+      "materias": [
+        "Asociación Española de Normalización y Certificación",
+        "Ayudas",
+        "Cooperación técnica",
+        "Secretaría de Estado de Digitalización e Inteligencia Artificial",
+        "Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales",
+        "Subvenciones"
+      ],
+      "truncated": true,
+      "totalParagraphs": 213,
+      "totalChars": 61018,
+      "analysis": {
+        "relevancia": {
+          "score": 0.06,
+          "confidence": 0.94,
+          "probabilities": {
+            "0": 0.94,
+            "1": 0.06,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "consumo-y-empresas",
+            "p": 0.72
+          },
+          {
+            "id": "ayudas-y-subvenciones",
+            "p": 0.6
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.22,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.08,
+          "ayudas-y-subvenciones": 0.6,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.72,
+          "transporte-y-trafico": 0.03,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.04
+        },
+        "extracto": {
+          "id": "p14",
+          "texto": "Siendo una labor, la de esta Asociación, entendida de utilidad pública, y como la única reconocida para el ejercicio de dicha actividad, este real decreto nace apoyado en el artículo 22, apartado 2, letra c), de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, así como el artículo 67 del Reglamento de la Ley 38/2003, de 17 de noviembre, aprobado por el Real Decreto 887/2006, de 21 de julio, que establecen que podrán concederse de forma directa y «con carácter excepcional, aquellas otras subvenciones en que se acrediten razones de interés público, social, económico o humanitario». Permitiendo así que, a pesar de la situación de excepcionalidad que puedan suponer unos presupuestos prorrogados, la actividad de la Asociación Española de Normalización (UNE) pueda desarrollarse dentro de la normalidad.",
+          "p": 0.3,
+          "confidence": 0.28
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 299,
+        "jev_ms": 146
+      },
+      "usage": {
+        "input_tokens": 8465
+      }
+    },
+    {
+      "id": "BOE-A-2026-23741",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE CULTURA",
+      "epigrafe": "Patrimonio histórico. Derecho de tanteo",
+      "titulo": "Orden CLT/1204/2026, de 29 de octubre, por la que se ejercita el derecho de tanteo sobre el lote n.º 35, subastado por la sala Abalarte, en Madrid.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23741",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23741.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23741",
+      "rango": "Orden",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 9,
+      "totalChars": 1579,
+      "analysis": {
+        "relevancia": {
+          "score": 0.06,
+          "confidence": 0.94,
+          "probabilities": {
+            "0": 0.94,
+            "1": 0.06,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.01,
+          "impuestos-y-hacienda": 0.15,
+          "pensiones-y-seguridad-social": 0.01,
+          "sanidad": 0.01,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.01,
+          "consumo-y-empresas": 0.24,
+          "transporte-y-trafico": 0.01,
+          "extranjeria": 0.01,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p3",
+          "texto": "Que se ejercite el derecho de tanteo sobre el bien mueble que fue incluido en el catálogo de la subasta pública celebrada en la sala Abalarte, en Madrid, el día 30 de septiembre de 2026, con el número y referencia siguiente:",
+          "p": 0.47,
+          "confidence": 0.34
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 95,
+        "jev_ms": 87
+      },
+      "usage": {
+        "input_tokens": 3066
+      }
+    },
+    {
+      "id": "BOE-A-2026-23742",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE CULTURA",
+      "epigrafe": "Patrimonio histórico. Derecho de tanteo",
+      "titulo": "Orden CLT/1205/2026, de 29 de octubre, por la que se ejercita el derecho de tanteo sobre el lote n.º 627, subastado por la sala Alcalá, en Madrid.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23742",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23742.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23742",
+      "rango": "Orden",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 9,
+      "totalChars": 1436,
+      "analysis": {
+        "relevancia": {
+          "score": 0.05,
+          "confidence": 0.95,
+          "probabilities": {
+            "0": 0.95,
+            "1": 0.05,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.01,
+          "impuestos-y-hacienda": 0.12,
+          "pensiones-y-seguridad-social": 0.01,
+          "sanidad": 0.01,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.01,
+          "consumo-y-empresas": 0.2,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.01,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p8",
+          "texto": "Que dicha obra se deposite y asigne al Museo Sefardí, de titularidad estatal, que debe proceder a su inclusión en el inventario de patrimonio propiedad del Estado que allí se custodia.",
+          "p": 0.36,
+          "confidence": 0.2
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 95,
+        "jev_ms": 92
+      },
+      "usage": {
+        "input_tokens": 3030
+      }
+    },
+    {
+      "id": "BOE-A-2026-23743",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE CULTURA",
+      "epigrafe": "Patrimonio histórico. Derecho de tanteo",
+      "titulo": "Orden CLT/1206/2026, de 29 de octubre, por la que se ejercita el derecho de tanteo sobre el lote n.º 786, subastado por la sala Alcalá, en Madrid.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23743",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23743.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23743",
+      "rango": "Orden",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 9,
+      "totalChars": 1456,
+      "analysis": {
+        "relevancia": {
+          "score": 0.05,
+          "confidence": 0.96,
+          "probabilities": {
+            "0": 0.96,
+            "1": 0.04,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.01,
+          "impuestos-y-hacienda": 0.14,
+          "pensiones-y-seguridad-social": 0.01,
+          "sanidad": 0.01,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.02,
+          "oposiciones-y-empleo-publico": 0.01,
+          "consumo-y-empresas": 0.22,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.01,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p3",
+          "texto": "Que se ejercite el derecho de tanteo sobre el bien mueble que fue incluido en el catálogo de la subasta pública celebrada en la sala Alcalá, en Madrid, el día 8 de octubre de 2026, con el número y referencia siguiente:",
+          "p": 0.46,
+          "confidence": 0.32
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 1155,
+        "jev_ms": 122
+      },
+      "usage": {
+        "input_tokens": 3033
+      }
+    },
+    {
+      "id": "BOE-A-2026-23738",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+      "epigrafe": "Instalaciones eléctricas",
+      "titulo": "Resolución de 18 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se corrigen errores en la de 18 de julio de 2025, por la que se otorga a Iberdrola Generación, SAU, autorización administrativa previa de la instalación solar fotovoltaica «Azután II», de 60 MW de potencia instalada, y su infraestructura de evacuación, para hibridación del grupo 2 de la central hidráulica existente Azután, en Calera y Chozas y Alcolea de Tajo (Toledo).",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23738",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23738.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23738",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 9,
+      "totalChars": 1808,
+      "analysis": {
+        "relevancia": {
+          "score": 0.03,
+          "confidence": 0.97,
+          "probabilities": {
+            "0": 0.97,
+            "1": 0.03,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "medio-ambiente-y-energia",
+            "p": 0.77
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.02,
+          "pensiones-y-seguridad-social": 0.01,
+          "sanidad": 0.02,
+          "educacion": 0.01,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.02,
+          "consumo-y-empresas": 0.45,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.01,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.77
+        },
+        "extracto": {
+          "id": "p3",
+          "texto": "Esta Dirección General resuelve proceder a la rectificación del citado error material, de conformidad con lo dispuesto en el artículo 109 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, sin que dicha rectificación suponga alteración alguna del contenido sustantivo ni del alcance de la autorización administrativa previa concedida.",
+          "p": 0.41,
+          "confidence": 0.29
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 95,
+        "jev_ms": 88
+      },
+      "usage": {
+        "input_tokens": 3235
+      }
+    },
+    {
+      "id": "BOE-A-2026-23739",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE CULTURA",
+      "epigrafe": "Patrimonio histórico. Derecho de tanteo",
+      "titulo": "Orden CLT/1202/2026, de 22 de octubre, por la que se ejercita el derecho de tanteo sobre 12 lotes de libros antiguos, subastados por la sala El Remate, en Madrid.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23739",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23739.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23739",
+      "rango": "Orden",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 19,
+      "totalChars": 4204,
+      "analysis": {
+        "relevancia": {
+          "score": 0.03,
+          "confidence": 0.97,
+          "probabilities": {
+            "0": 0.97,
+            "1": 0.03,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.01,
+          "impuestos-y-hacienda": 0.12,
+          "pensiones-y-seguridad-social": 0.01,
+          "sanidad": 0.02,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.04,
+          "oposiciones-y-empleo-publico": 0.01,
+          "consumo-y-empresas": 0.33,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.01,
+          "justicia-y-derechos": 0.02,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p4",
+          "texto": "Que se ejercite el derecho de tanteo para el Museo Nacional del Prado, con cargo a sus presupuestos, sobre los bienes muebles que fueron incluidos en el catálogo de la subasta pública celebrada en la sala El Remate, en Madrid, el día 24 de septiembre de 2026, con los números de lote y referencias siguientes:",
+          "p": 0.99,
+          "confidence": 0.99
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 96,
+        "jev_ms": 87
+      },
+      "usage": {
+        "input_tokens": 4281
+      }
+    },
+    {
+      "id": "BOE-A-2026-23740",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE CULTURA",
+      "epigrafe": "Patrimonio histórico. Derecho de tanteo",
+      "titulo": "Orden CLT/1203/2026, de 22 de octubre, por la que se ejercita el derecho de tanteo sobre el lote n.º 300, subastado por la sala Áureo y Calicó, en Barcelona.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23740",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23740.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23740",
+      "rango": "Orden",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 8,
+      "totalChars": 1454,
+      "analysis": {
+        "relevancia": {
+          "score": 0.03,
+          "confidence": 0.97,
+          "probabilities": {
+            "0": 0.97,
+            "1": 0.03,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.01,
+          "impuestos-y-hacienda": 0.09,
+          "pensiones-y-seguridad-social": 0.01,
+          "sanidad": 0.01,
+          "educacion": 0.02,
+          "ayudas-y-subvenciones": 0.03,
+          "oposiciones-y-empleo-publico": 0.01,
+          "consumo-y-empresas": 0.23,
+          "transporte-y-trafico": 0.01,
+          "extranjeria": 0.01,
+          "justicia-y-derechos": 0.03,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p4",
+          "texto": "Que se ejercite el derecho de tanteo para Patrimonio Nacional, con cargo a sus presupuestos, sobre el bien mueble que fue incluido en el catálogo de la subasta pública celebrada en la sala Áureo y Calicó, en Barcelona, el día 8 de octubre de 2026, con el número de lote y referencia siguiente:",
+          "p": 0.97,
+          "confidence": 0.96
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 96,
+        "jev_ms": 103
+      },
+      "usage": {
+        "input_tokens": 3015
+      }
+    },
+    {
+      "id": "BOE-A-2026-23744",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+      "epigrafe": "Convenios",
+      "titulo": "Resolución de 7 de octubre de 2026, de la Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P., por la que se publica el Convenio con la Fundación Ramón Areces, para el desarrollo del proyecto «RER-IA CSIC».",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23744",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23744.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23744",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": true,
+      "totalParagraphs": 95,
+      "totalChars": 24672,
+      "analysis": {
+        "relevancia": {
+          "score": 0.03,
+          "confidence": 0.97,
+          "probabilities": {
+            "0": 0.97,
+            "1": 0.03,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.03,
+          "impuestos-y-hacienda": 0.16,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.41,
+          "educacion": 0.06,
+          "ayudas-y-subvenciones": 0.09,
+          "oposiciones-y-empleo-publico": 0.04,
+          "consumo-y-empresas": 0.21,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.02,
+          "justicia-y-derechos": 0.37,
+          "medio-ambiente-y-energia": 0.02
+        },
+        "extracto": {
+          "id": "p26",
+          "texto": "1. La Fundación se compromete a realizar una aportación económica de 292.000 euros (doscientos noventa y dos mil euros) para la realización del Proyecto, al corresponderse con el presupuesto previsto para su ejecución de acuerdo con el desglose ilustrado en el anexo.",
+          "p": 0.22,
+          "confidence": 0.21
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 121,
+        "jev_ms": 121
+      },
+      "usage": {
+        "input_tokens": 9162
+      }
+    },
+    {
+      "id": "BOE-A-2026-23747",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "COMISIÓN NACIONAL DEL MERCADO DE VALORES",
+      "epigrafe": "Mercado de valores",
+      "titulo": "Resolución de 29 de octubre de 2026, de la Comisión Nacional del Mercado de Valores, por la que se publica la sanción por infracción continuada grave impuesta a don Adolfo Felipe Moreno Casero.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23747",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23747.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23747",
+      "rango": "Resolución",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 4,
+      "totalChars": 2294,
+      "analysis": {
+        "relevancia": {
+          "score": 0.02,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0.98,
+            "1": 0.02,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [
+          {
+            "id": "consumo-y-empresas",
+            "p": 0.6
+          }
+        ],
+        "categoriasRaw": {
+          "vivienda": 0.01,
+          "empleo-y-trabajo": 0.01,
+          "impuestos-y-hacienda": 0.09,
+          "pensiones-y-seguridad-social": 0.01,
+          "sanidad": 0.01,
+          "educacion": 0.01,
+          "ayudas-y-subvenciones": 0.02,
+          "oposiciones-y-empleo-publico": 0.01,
+          "consumo-y-empresas": 0.6,
+          "transporte-y-trafico": 0.01,
+          "extranjeria": 0.01,
+          "justicia-y-derechos": 0.15,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "– Imponer a don Adolfo Felipe Moreno Casero por la comisión de una infracción continuada grave tipificada en el artículo 295.13 de la Ley del Mercado de Valores, texto refundido aprobado por Real Decreto Legislativo 4/2015, de 23 de octubre, por la vulneración del artículo 15, en relación con los artículos 12.1 y 12.2, del Reglamento (UE) n.º 596/2014, del Parlamento Europeo y del Consejo, de 16 de abril de 2014, sobre el abuso de mercado, por la realización de prácticas constitutivas de manipulación de mercado sobre acciones de Squirrel Media, SA, en las siguientes 29 sesiones de 2022: 10, 12, 16, 24, 25, 26, 27 y 30 de mayo; 29 y 30 de junio; 1, 6, 11, 13 y 19 de julio; 31 de agosto; 1, 2, 5, 9, 13, 15, 19 y 22 de septiembre; 4, 13, 19 y 21 de octubre; y 30 de diciembre, multa por importe de 70.000 euros (setenta mil euros).",
+          "p": 0.96,
+          "confidence": 0.94
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 99,
+        "jev_ms": 74
+      },
+      "usage": {
+        "input_tokens": 3214
+      }
+    },
+    {
+      "id": "BOE-A-2026-23729",
+      "seccion": "3",
+      "seccionNombre": "III. Otras disposiciones",
+      "departamento": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+      "epigrafe": "Condecoraciones",
+      "titulo": "Orden EFD/1201/2026, de 31 de octubre, por la que se concede el ingreso en la Orden Civil de Alfonso X el Sabio con la categoría de Encomienda con Placa a don Javier García Martínez.",
+      "urlHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23729",
+      "urlPdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23729.pdf",
+      "urlXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23729",
+      "rango": "Orden",
+      "materias": [],
+      "truncated": false,
+      "totalParagraphs": 3,
+      "totalChars": 471,
+      "analysis": {
+        "relevancia": {
+          "score": 0,
+          "confidence": 1,
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        },
+        "categorias": [],
+        "categoriasRaw": {
+          "vivienda": 0.02,
+          "empleo-y-trabajo": 0.02,
+          "impuestos-y-hacienda": 0.02,
+          "pensiones-y-seguridad-social": 0.02,
+          "sanidad": 0.02,
+          "educacion": 0.1,
+          "ayudas-y-subvenciones": 0.05,
+          "oposiciones-y-empleo-publico": 0.03,
+          "consumo-y-empresas": 0.02,
+          "transporte-y-trafico": 0.02,
+          "extranjeria": 0.03,
+          "justicia-y-derechos": 0.08,
+          "medio-ambiente-y-energia": 0.01
+        },
+        "extracto": {
+          "id": "p2",
+          "texto": "Este Ministerio ha dispuesto conceder el ingreso en la Orden Civil de Alfonso X el Sabio, con la categoría de Encomienda con Placa, a don Javier García Martínez.",
+          "p": 1,
+          "confidence": 1
+        }
+      },
+      "error": null,
+      "timings": {
+        "fetch_ms": 97,
+        "jev_ms": 81
+      },
+      "usage": {
+        "input_tokens": 2598
+      }
+    }
+  ]
+}
